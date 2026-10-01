@@ -1,0 +1,71 @@
+## `{qcthat}` generates qualification reports from your test suite
+
+:::: columns
+
+::: {.column width="60%"}
+
+![](slide_images/gh_report_pr_zoom.png){width=100%}
+
+:::
+
+::: {.column width="40%"}
+
+[![github.com/Gilead-Public/qcthat/releases/latest](slide_images/qr_latest_release.png){width=100%}](https://github.com/Gilead-Public/qcthat/releases/latest)
+
+:::
+
+::::
+
+::: notes
+- We'll talk a bit later about all the reports that are available, including Milestones and UAT which aren't shown in this screenshot.
+- The QR code takes you to the latest release. Scroll down to see its attached reports.
+- Note the triangle to expand/collapse the reports
+:::
+
+# R package qualification is necessary but challenging
+
+## Regulators require evidence that software performs as intended
+
+- FDA (etc) require documented proof that software produces reliable results
+- Adopting organization often takes on burden of proof
+
+::: notes
+- Atorus OpenVal for a collection of validated packages.
+- This process can slow or prevent R adoption.
+:::
+
+## R packages might do what you need, but you'll need proof
+
+:::: columns
+
+::: {.column width="60%"}
+
+![](slide_images/gh_qcthat.png){width=100%}
+
+:::
+
+::: {.column width="40%"}
+
+- Many R packages are developed on [GitHub](https://github.com)
+- Lots of information here, but not clear how it connects
+
+:::
+
+::::
+
+::: notes
+- A lot of you are probably in the process of transitioning to R right now.
+- Talk about GitHub, some of its features.
+:::
+
+## Qualification is often a manual, retrospective burden
+
+- Qualification documents often created *after* development
+- Development team manually maps specifications to functions and evidence
+- Repeated for every new release
+
+## "Validation debt" delays releases and increases risk
+
+- Deferred qualification: harder to reconstruct what was tested and why
+- Manual qualification docs drift out of sync with code
+- Teams avoid using updates to dodge re-qualification
