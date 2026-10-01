@@ -17,8 +17,8 @@ format:
     incremental: false
 ---
 
-{{< include introduction.qmd >}}
+{{< include _sections/introduction.qmd >}}
 
-{{< include qcthat.qmd >}}
+{{< include _sections/qcthat.qmd >}}
 
-{{< include automated-qualification.qmd >}}
+{{< include _sections/automated-qualification.qmd >}}
