@@ -1,0 +1,38 @@
+# The standard R package lifecycle generates evidence but lacks traceability
+
+## Modern R packages use `{testthat}` for robust automated testing
+
+- Industry-standard testing framework
+- Confirms functions behave as expected *and keep working after changes*
+- Activate with `usethis::use_testthat()`
+
+## CI/CD pipelines ensure code integrity on every commit
+
+- GitHub Actions run tests on every push (`usethis::use_github_action()`)
+- Failures caught long before code reaches production
+- Standard practice for well-maintained R packages
+
+## Standard `{testthat}` scripts provide the evidence of implementation
+
+:::: columns
+
+::: column
+
+- Every test run produces machine-readable results: pass, fail, skip, or warning
+- Proves that code *works*
+
+:::
+
+::: column
+
+![](slide_images/pkg_tests.png){width=100%}
+
+:::
+
+::::
+
+## *But:* A passing test suite doesn't prove which requirement was met
+
+- `{testthat}` shows *what was tested*, not *why*
+- No built-in link between GitHub issue and its tests
+- Reviewers must manually reconstruct the mapping

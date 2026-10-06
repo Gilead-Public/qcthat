@@ -1,0 +1,53 @@
+# `{qcthat}` connects issues to tests for continuous qualification
+
+## Connecting tests to issues is straightforward
+
+- Add `(#123)` or `(#84, #132)` (issue numbers) to `test_that()` description to tag test to issue
+
+![](slide_images/test-tagged.png){width=100%}
+
+## `{qcthat}` Reports are easy to generate
+
+:::: columns
+
+::: column
+
+- `QCPackage()` generates a full report linking issues to tagged tests
+- Organized by milestone; tests nested under linked issues
+- Filter to subsets: `QCCompletedIssues()`, `QCPR()`, `QCMilestones()`
+
+:::
+::: column
+
+![](slide_images/gh_report_completed_zoom.png){width=100%}
+
+:::
+
+::::
+
+::: notes
+- Milestone = GitHub option for grouping issues.
+:::
+
+## The "Issue-Test Matrix" shows the connections between issues and tests
+
+![](slide_images/gh_report_completed_zoom.png){width=100%}
+
+::: notes
+- "Requirement", "Technical Task", and "Feature" are issue types in our GitHub repository.
+- We *only* work with GitHub right now, but if you use something else (GitLab, Atlassian, etc) I'd love to work with you to generalize.
+- If you're reading carefully, these tests sound hard to test.
+:::
+
+## User Acceptance Testing (UAT) is integrated directly into tests
+
+- `ExpectUserAccepts()` creates GitHub issues requiring manual sign-off
+
+![](slide_images/uat.png){width=100%}
+
+## User Acceptance Testing (UAT) is integrated directly into tests
+
+- UAT issues = children of originating requirement issue
+- UAT issue closed → test passes
+
+![](slide_images/uat_gh.png){width=100%}

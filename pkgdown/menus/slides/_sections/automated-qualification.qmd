@@ -1,0 +1,40 @@
+# `{qcthat}` transforms qualification from a retrospective burden into a seamless byproduct of development
+
+## Automated bots bring qualification reports directly to the Pull Request
+
+- GitHub Action comments on every PR with reports: 
+  - PR-Associated Issues
+  - Completed Issues
+  - Milestone
+  - UAT
+- Reviewers see qualification status *before* merging
+- Reports update automatically as the PR changes
+
+::: notes
+- "Pull request" is weird terminology, but it basically means "proposed changes to the code."
+- You can mentally replace "Pull Request" and "PR" with "proposed change".
+:::
+
+## Immutable artifacts are automatically attached to GitHub Releases
+
+:::: columns
+
+::: {.column width="60%"}
+
+- Completed Issues and Milestone reports embedded in GitHub Release description
+- Each release carries its own qualification evidence
+- Version-controlled and tamper-evident by design
+
+:::
+
+::: {.column width="40%"}
+
+[![github.com/Gilead-Public/qcthat/releases/latest](slide_images/qr_latest_release.png){width=100%}](https://github.com/Gilead-Public/qcthat/releases/latest)
+
+:::
+
+::::
+
+::: notes
+- Link to the GitHub Actions run that generated it, so you can compare results
+:::
