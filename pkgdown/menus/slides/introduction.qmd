@@ -17,8 +17,14 @@ format:
     incremental: false
 ---
 
-{{< include _sections/introduction.qmd >}}
+{{< include _sections/intro.qmd >}}
 
-{{< include _sections/qcthat.qmd >}}
+{{< include _sections/why-qualify.qmd >}}
+
+{{< include _sections/standard-r-testing.qmd >}}
+
+{{< include _sections/issue-test-matrix.qmd >}}
 
 {{< include _sections/automated-qualification.qmd >}}
+
+{{< include _sections/outro.qmd >}}

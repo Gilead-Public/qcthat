@@ -1,11 +1,40 @@
-## Packages are qualified continuously with every change
+# `{qcthat}` transforms qualification from a retrospective burden into a seamless byproduct of development
 
-- Qualification as a byproduct of development, not a separate phase
-- Developers tag tests to issues as they're written
-- Reports identify untested issues and unlinked tests
+## Automated bots bring qualification reports directly to the Pull Request
 
-## Contact us with questions and comments
+- GitHub Action comments on every PR with reports: 
+  - PR-Associated Issues
+  - Completed Issues
+  - Milestone
+  - UAT
+- Reviewers see qualification status *before* merging
+- Reports update automatically as the PR changes
 
-- `{qcthat}` package website: [gilead-public.github.io/qcthat](https://gilead-public.github.io/qcthat)
-- Submit issues & discuss at [github.com/Gilead-Public/qcthat](https://github.com/Gilead-Public/qcthat)
-- Chat with us after the talk!
+::: notes
+- "Pull request" is weird terminology, but it basically means "proposed changes to the code."
+- You can mentally replace "Pull Request" and "PR" with "proposed change".
+:::
+
+## Immutable artifacts are automatically attached to GitHub Releases
+
+:::: columns
+
+::: {.column width="60%"}
+
+- Completed Issues and Milestone reports embedded in GitHub Release description
+- Each release carries its own qualification evidence
+- Version-controlled and tamper-evident by design
+
+:::
+
+::: {.column width="40%"}
+
+[![github.com/Gilead-Public/qcthat/releases/latest](slide_images/qr_latest_release.png){width=100%}](https://github.com/Gilead-Public/qcthat/releases/latest)
+
+:::
+
+::::
+
+::: notes
+- Link to the GitHub Actions run that generated it, so you can compare results
+:::
