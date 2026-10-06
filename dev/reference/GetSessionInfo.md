@@ -27,21 +27,21 @@ GetSessionInfo()
 #> ─ Session info ───────────────────────────────────────────────────────────────
 #>  setting  value
 #>  version  R version 4.6.1 (2026-06-24)
-#>  os       Ubuntu 24.04.4 LTS
+#>  os       Ubuntu 24.04.5 LTS
 #>  system   x86_64, linux-gnu
 #>  ui       X11
 #>  language en-US
 #>  collate  C
 #>  ctype    C.UTF-8
 #>  tz       UTC
-#>  date     2026-08-04
+#>  date     2026-10-06
 #>  pandoc   3.8.3 @ /opt/hostedtoolcache/pandoc/3.8.3/x64/ (via rmarkdown)
-#>  quarto   1.10.18 @ /usr/local/bin/quarto
+#>  quarto   1.10.19 @ /usr/local/bin/quarto
 #> 
 #> ─ Packages ───────────────────────────────────────────────────────────────────
 #>  package     * version date (UTC) lib source
 #>  askpass       1.2.1   2024-10-04 [1] RSPM
-#>  astgrepr      0.1.1   2025-06-07 [1] RSPM
+#>  astgrepr      0.1.2   2026-08-04 [1] RSPM
 #>  backports     1.5.1   2026-04-03 [1] RSPM
 #>  base        * 4.6.1   2026-06-24 [3] local
 #>  base64enc     0.1-6   2026-02-02 [1] RSPM
@@ -60,10 +60,10 @@ GetSessionInfo()
 #>  covr          3.6.5   2025-11-09 [1] RSPM
 #>  crayon        1.5.3   2024-06-20 [1] RSPM
 #>  credentials   2.0.3   2025-09-12 [1] RSPM
-#>  curl          7.1.0   2026-04-22 [1] RSPM
+#>  curl          8.0.0   2026-08-25 [1] RSPM
 #>  datasets    * 4.6.1   2026-06-24 [3] local
 #>  desc          1.4.3   2023-12-10 [1] RSPM
-#>  diffobj       0.3.8   2026-07-17 [1] RSPM
+#>  diffobj       0.3.9   2026-09-11 [1] RSPM
 #>  digest        0.6.39  2025-11-19 [1] RSPM
 #>  downlit       0.4.5   2025-11-14 [1] RSPM
 #>  dplyr         1.2.1   2026-04-03 [1] RSPM
@@ -75,7 +75,7 @@ GetSessionInfo()
 #>  foreign       0.8-91  2026-01-29 [3] CRAN (R 4.6.1)
 #>  fs            2.1.0   2026-04-18 [1] RSPM
 #>  generics      0.1.4   2025-05-09 [1] RSPM
-#>  gert          2.4.0   2026-07-22 [1] RSPM
+#>  gert          2.4.1   2026-08-19 [1] RSPM
 #>  gh            1.6.1   2026-07-20 [1] RSPM
 #>  git2r         0.36.2  2025-03-29 [1] RSPM
 #>  gitcreds      0.1.2   2022-09-08 [1] RSPM
@@ -83,17 +83,17 @@ GetSessionInfo()
 #>  graphics    * 4.6.1   2026-06-24 [3] local
 #>  grDevices   * 4.6.1   2026-06-24 [3] local
 #>  grid          4.6.1   2026-06-24 [3] local
-#>  gsm.utils     0.4.0   2026-08-04 [1] Github (gilead-public/gsm.utils@b020480)
+#>  gsm.utils     0.4.0   2026-10-06 [1] Github (gilead-public/gsm.utils@b020480)
 #>  here          1.0.2   2025-09-15 [1] RSPM
 #>  highr         0.12    2026-03-06 [1] RSPM
 #>  htmltools     0.5.9   2025-12-04 [1] RSPM
-#>  httr          1.4.8   2026-02-13 [1] RSPM
+#>  httr          1.4.9   2026-09-01 [1] RSPM
 #>  httr2         1.3.0   2026-07-13 [1] RSPM
 #>  ini           0.3.1   2018-05-20 [1] RSPM
 #>  jquerylib     0.1.4   2021-04-26 [1] RSPM
 #>  jsonlite      2.0.0   2025-03-27 [1] RSPM
 #>  KernSmooth    2.23-26 2025-01-01 [3] CRAN (R 4.6.1)
-#>  knitr         1.51    2025-12-20 [1] RSPM
+#>  knitr         1.52    2026-09-06 [1] RSPM
 #>  later         1.4.8   2026-03-05 [1] RSPM
 #>  lattice       0.22-9  2026-02-09 [3] CRAN (R 4.6.1)
 #>  lifecycle     1.0.5   2026-01-08 [1] RSPM
@@ -108,7 +108,7 @@ GetSessionInfo()
 #>  nnet          7.3-20  2025-01-01 [3] CRAN (R 4.6.1)
 #>  openssl       2.4.2   2026-06-09 [1] RSPM
 #>  otel          0.2.0   2025-08-29 [1] RSPM
-#>  pak           0.11.1  2026-07-22 [2] local
+#>  pak           0.11.1  2026-07-22 [1] RSPM
 #>  parallel      4.6.1   2026-06-24 [3] local
 #>  pillar        1.11.1  2025-09-17 [1] RSPM
 #>  pkgbuild      1.4.8   2025-05-26 [1] RSPM
@@ -119,7 +119,7 @@ GetSessionInfo()
 #>  processx      3.9.0   2026-04-22 [1] RSPM
 #>  ps            1.9.3   2026-04-20 [1] RSPM
 #>  purrr         1.2.2   2026-04-10 [1] RSPM
-#>  qcthat      * 1.1.3   2026-08-04 [1] local
+#>  qcthat      * 1.1.3   2026-10-06 [1] local
 #>  quarto        1.5.1   2025-09-04 [1] RSPM
 #>  R6            2.6.1   2025-02-15 [1] RSPM
 #>  ragg          1.5.2   2026-03-23 [1] RSPM
@@ -127,20 +127,20 @@ GetSessionInfo()
 #>  Rcpp          1.1.2   2026-07-05 [1] RSPM
 #>  rex           1.2.2   2026-03-28 [1] RSPM
 #>  rlang         1.3.0   2026-07-05 [1] RSPM
-#>  rmarkdown     2.31    2026-03-26 [1] RSPM
+#>  rmarkdown     2.32    2026-09-01 [1] RSPM
 #>  rpart         4.1.27  2026-03-27 [3] CRAN (R 4.6.1)
 #>  rprojroot     2.1.1   2025-08-26 [1] RSPM
 #>  rrapply       1.2.8   2025-11-25 [1] RSPM
 #>  rstudioapi    0.19.0  2026-06-11 [1] RSPM
 #>  rvest         1.0.5   2025-08-29 [1] RSPM
 #>  sass          0.4.10  2025-04-11 [1] RSPM
-#>  selectr       0.6-0   2026-06-23 [1] RSPM
+#>  selectr       0.8-0   2026-09-27 [1] RSPM
 #>  sessioninfo   1.2.4   2026-06-04 [1] RSPM
 #>  spatial       7.3-18  2025-01-01 [3] CRAN (R 4.6.1)
 #>  splines       4.6.1   2026-06-24 [3] local
 #>  stats       * 4.6.1   2026-06-24 [3] local
 #>  stats4        4.6.1   2026-06-24 [3] local
-#>  stringi       1.8.7   2025-03-27 [1] RSPM
+#>  stringi       1.8.9   2026-08-04 [1] RSPM
 #>  stringr       1.6.0   2025-11-04 [1] RSPM
 #>  survival      3.8-6   2026-01-16 [3] CRAN (R 4.6.1)
 #>  sys           3.4.3   2024-10-04 [1] RSPM
@@ -151,19 +151,19 @@ GetSessionInfo()
 #>  tibble        3.3.1   2026-01-11 [1] RSPM
 #>  tidyr         1.3.2   2025-12-19 [1] RSPM
 #>  tidyselect    1.2.1   2024-03-11 [1] RSPM
-#>  tinytex       0.60    2026-06-16 [1] RSPM
+#>  tinytex       0.61    2026-09-17 [1] RSPM
 #>  tools         4.6.1   2026-06-24 [3] local
-#>  usethis       3.2.1   2025-09-06 [1] RSPM
+#>  usethis       3.2.2   2026-09-10 [1] RSPM
 #>  utf8          1.2.6   2025-06-08 [1] RSPM
 #>  utils       * 4.6.1   2026-06-24 [3] local
 #>  vctrs         0.7.3   2026-04-11 [1] RSPM
 #>  waldo         0.6.2   2025-07-11 [1] RSPM
 #>  whisker       0.4.1   2022-12-05 [1] RSPM
 #>  withr         3.0.3   2026-06-19 [1] RSPM
-#>  xfun          0.60    2026-07-09 [1] RSPM
+#>  xfun          0.61    2026-09-16 [1] RSPM
 #>  xml2          1.6.0   2026-06-22 [1] RSPM
 #>  yaml          2.3.12  2025-12-10 [1] RSPM
-#>  zip           3.0.1   2026-07-13 [1] RSPM
+#>  zip           3.0.2   2026-08-04 [1] RSPM
 #> 
 #>  [1] /home/runner/work/_temp/Library
 #>  [2] /opt/R/4.6.1/lib/R/site-library
