@@ -9,7 +9,7 @@ execute:
   echo: true
 format:
   revealjs:
-    theme: dark
+    theme: [dark, custom-theme.scss]
     logo: slide_images/favicon-96x96.png
     footer: <a href="https://gilead-public.github.io/qcthat/">gilead-public.github.io/qcthat</a>
     link-external-newwindow: true
@@ -17,8 +17,14 @@ format:
     incremental: false
 ---
 
-{{< include _sections/introduction.qmd >}}
+{{< include _sections/intro.qmd >}}
 
-{{< include _sections/qcthat.qmd >}}
+{{< include _sections/why-qualify.qmd >}}
+
+{{< include _sections/standard-r-testing.qmd >}}
+
+{{< include _sections/issue-test-matrix.qmd >}}
 
 {{< include _sections/automated-qualification.qmd >}}
+
+{{< include _sections/outro.qmd >}}

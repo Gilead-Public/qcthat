@@ -1,26 +1,19 @@
-## `{qcthat}` generates qualification reports from your test suite
+##
 
-:::: columns
+```{=html}
+<div class="tenor-gif-embed" data-postid="17638882" data-share-method="host" data-aspect-ratio="0.5625" data-width="100%"><a href="https://tenor.com/view/falling-papers-people-are-awesome-no-more-paper-works-celebrate-woo-gif-17638882">Falling Papers People Are Awesome GIF</a>from <a href="https://tenor.com/search/falling+papers-gifs">Falling Papers GIFs</a></div>
+<script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+```
 
-::: {.column width="60%"}
+# Qualification
 
-![](slide_images/gh_report_pr_zoom.png){width=100%}
+system-level assurance + documentation + traceability
 
-:::
+## Drawbacks of the approach
 
-::: {.column width="40%"}
-
-[![github.com/Gilead-Public/qcthat/releases/latest](slide_images/qr_latest_release.png){width=100%}](https://github.com/Gilead-Public/qcthat/releases/latest)
-
-:::
-
-::::
-
-::: notes
-- We'll talk a bit later about all the reports that are available, including Milestones and UAT which aren't shown in this screenshot.
-- The QR code takes you to the latest release. Scroll down to see its attached reports.
-- Note the triangle to expand/collapse the reports
-:::
+- Qualification documents often created *after* development
+- Development team manually maps specifications to functions and evidence
+- Repeated for every new release
 
 # R package qualification is necessary but challenging
 

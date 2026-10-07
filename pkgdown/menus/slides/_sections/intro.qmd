@@ -1,0 +1,23 @@
+## `{qcthat}` generates qualification reports from your test suite
+
+:::: columns
+
+::: {.column width="60%"}
+
+![](slide_images/gh_report_pr_zoom.png){width=100%}
+
+:::
+
+::: {.column width="40%"}
+
+[![github.com/Gilead-Public/qcthat/releases/latest](slide_images/qr_latest_release.png){width=100%}](https://github.com/Gilead-Public/qcthat/releases/latest)
+
+:::
+
+::::
+
+::: notes
+- We'll talk a bit later about all the reports that are available, including Milestones and UAT which aren't shown in this screenshot.
+- The QR code takes you to the latest release. Scroll down to see its attached reports.
+- Note the triangle to expand/collapse the reports
+:::
