@@ -13,7 +13,7 @@ format:
     logo: slide_images/favicon-96x96.png
     footer: <a href="https://gilead-public.github.io/qcthat/">gilead-public.github.io/qcthat</a>
     link-external-newwindow: true
-    transition: slide
+    transition: none
     incremental: false
 ---
 

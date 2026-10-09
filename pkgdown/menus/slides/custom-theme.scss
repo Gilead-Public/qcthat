@@ -15,3 +15,283 @@ $presentation-heading-color: #ffffff !default;
 $code-color: #e8c468 !default; // soft gold accent
 $code-block-bg: #13243f !default;
 $code-block-border-color: #22395e !default;
+
+/*-- scss:rules --*/
+
+.center {
+  text-align: center !important;
+}
+.center img {
+  display: block;
+  margin: 0 auto;
+}
+
+// Qualification title slide
+.qual-title h1 {
+  color: #c5203f !important; // GileadRed
+  text-align: center;
+  margin-top: -1.5em;
+}
+
+// Qualification title slide pills
+.qual-pills {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  margin-top: 1.2em;
+}
+.qual-pill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3em;
+}
+.qual-pill-icon {
+  font-size: 2.2em;
+}
+.qual-pill-label {
+  font-size: 0.75em;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+// Auto-qualification flowchart
+.autoq3 {
+  display: block;
+  width: 100%;
+  height: 600px;
+  margin: 0 auto;
+  overflow: visible;
+}
+.autoq3 .aq3-text {
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  fill: #eef2f7;
+  text-anchor: middle;
+  dominant-baseline: central;
+}
+.autoq3 .aq3-small {
+  font-size: 20px;
+}
+.autoq3 .aq3-on-pill {
+  fill: #0b1d33;
+  font-weight: 700;
+}
+.autoq3 .aq3-gold {
+  fill: #e8c468;
+}
+.autoq3 .aq3-dim {
+  fill: #9fb0c6;
+  font-weight: 400;
+}
+.autoq3 .aq3-pill {
+  fill: #8dc1c5;
+}
+.autoq3 .aq3-card {
+  fill: rgba(255, 255, 255, 0.05);
+  stroke: rgba(141, 193, 197, 0.5);
+  stroke-width: 1.5;
+}
+.autoq3 .aq3-happy {
+  fill: rgba(141, 193, 197, 0.1);
+  stroke: #8dc1c5;
+}
+.autoq3 .aq3-skip {
+  fill: none;
+  stroke: rgba(255, 255, 255, 0.3);
+  stroke-width: 1.5;
+  stroke-dasharray: 5 4;
+}
+.autoq3 .aq3-hex {
+  fill: rgba(232, 196, 104, 0.08);
+  stroke: #e8c468;
+  stroke-width: 2;
+  stroke-linejoin: round;
+}
+.autoq3 .aq3-line {
+  fill: none;
+  stroke: #8dc1c5;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.autoq3 .aq3-line-dim {
+  fill: none;
+  stroke: #7f8fa6;
+  stroke-width: 2;
+  stroke-dasharray: 5 4;
+  stroke-linejoin: round;
+}
+.autoq3 .aq3-badge {
+  fill: #0b1d33;
+  stroke: #8dc1c5;
+  stroke-width: 2;
+}
+.autoq3 .aq3-badge-gold {
+  stroke: #e8c468;
+}
+.autoq3 .aq3-badge-num {
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  fill: #8dc1c5;
+  text-anchor: middle;
+  dominant-baseline: central;
+}
+.autoq3 .aq3-tag {
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  fill: #ffffff;
+  text-anchor: middle;
+  dominant-baseline: central;
+}
+// Glow on the step that was just revealed
+.reveal .autoq3 .current-fragment .aq3-card,
+.reveal .autoq3 .current-fragment .aq3-pill,
+.reveal .autoq3 .current-fragment .aq3-hex {
+  filter: drop-shadow(0 0 8px rgba(141, 193, 197, 0.6));
+}
+
+// Continuous qualification loop (reuses the flowchart styles above)
+.autoq3.cq-loop {
+  height: 470px;
+  margin-top: 0.3em;
+}
+.autoq3 .cq-arc {
+  stroke-width: 3;
+}
+.autoq3 .cq-center {
+  fill: rgba(232, 196, 104, 0.06);
+  stroke: #e8c468;
+  stroke-width: 2;
+  stroke-dasharray: 4 5;
+}
+.autoq3 .cq-center-icon {
+  font-size: 34px;
+  text-anchor: middle;
+  dominant-baseline: central;
+}
+.reveal .cq-headline {
+  text-align: center;
+  font-size: 0.8em;
+  font-weight: 600;
+  margin-top: 0.2em;
+}
+.reveal .cq-gold {
+  color: #e8c468;
+}
+
+// "Why we had to change" grid (reuses the flowchart styles above)
+.autoq3.why-grid {
+  height: 420px;
+  margin-top: 0.8em;
+}
+.autoq3 .why-icon {
+  font-size: 38px;
+  text-anchor: middle;
+  dominant-baseline: central;
+}
+.autoq3 .why-title {
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  fill: #ffffff;
+  dominant-baseline: central;
+}
+.autoq3 .why-sub {
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 19px;
+  fill: #c9d3e0;
+  dominant-baseline: central;
+}
+.autoq3 .why-strong {
+  font-weight: 800;
+}
+
+// "Drawbacks of the approach" vertical cards
+.autoq3 .db-icon {
+  font-size: 58px;
+  text-anchor: middle;
+  dominant-baseline: central;
+}
+.autoq3 .db-title {
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 29px;
+  font-weight: 700;
+  fill: #ffffff;
+  text-anchor: middle;
+  dominant-baseline: central;
+}
+.autoq3 .db-sub {
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 23px;
+  fill: #c9d3e0;
+  text-anchor: middle;
+  dominant-baseline: central;
+}
+
+// Linked screenshot slides (Automated qualification PR, Qualification status update)
+.release-link {
+  display: inline-block;
+  border: 2px solid #3c587f;
+  border-radius: 10px;
+  transition: border-color 0.2s, border-width 0.2s, box-shadow 0.2s;
+  background-color: transparent;
+  outline: none;
+}
+.release-link:hover,
+.release-link:focus {
+  border-color: #3c587f !important;
+  border-width: 4px;
+  box-shadow: 0 0 0 4px rgba(60, 88, 127, 0.35);
+  background-color: transparent;
+  text-decoration: none !important;
+}
+.release-link img {
+  display: block;
+  border-radius: 7px;
+}
+
+// Registry table slide
+.reveal .registry-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.5em;
+  margin-top: 0.4em;
+}
+.reveal .registry-table th {
+  background: #22395e;
+  color: #8dc1c5;
+  text-align: left;
+  font-weight: 700;
+  padding: 6px 10px;
+  border-bottom: 2px solid #8dc1c5;
+}
+.reveal .registry-table td {
+  padding: 6px 10px;
+  border-bottom: 1px solid #1c3a5e;
+  white-space: nowrap;
+}
+.reveal .registry-table tbody tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.04);
+}
+.reveal .registry-table .repo {
+  font-weight: 700;
+  color: #ffffff;
+}
+.reveal .registry-table .version {
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  color: #e8c468;
+}
+.reveal .registry-table a {
+  color: #8dc1c5;
+}
+.reveal .registry-caption {
+  font-size: 0.45em;
+  opacity: 0.75;
+  text-align: right;
+  margin-top: 0.5em;
+}

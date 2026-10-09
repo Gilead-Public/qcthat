@@ -38,3 +38,181 @@
 ::: notes
 - Link to the GitHub Actions run that generated it, so you can compare results
 :::
+
+## Registry
+
+```{=html}
+<table class="registry-table">
+  <thead>
+    <tr>
+      <th>org</th><th>repo</th><th>internal?</th><th>version</th><th>release-url</th><th>release-date</th><th>qualification-url</th><th>qualification-date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Gilead-BioStats</td><td class="repo">gsm</td><td>yes</td><td class="version">v1.6.0</td><td><a href="https://github.com/Gilead-BioStats/gsm/releases/tag/v1.6.0" target="_blank" rel="noopener noreferrer">release ↗</a></td><td>2023-04-05</td><td><a href="https://github.com/Gilead-BioStats/r-qualification/blob/main/lib/gsm/qualification_v1_6_0.md" target="_blank" rel="noopener noreferrer">qualification ↗</a></td><td>2023-08-28</td></tr>
+    <tr><td>Gilead-BioStats</td><td class="repo">gsm</td><td>yes</td><td class="version">v1.7.1</td><td><a href="https://github.com/Gilead-BioStats/gsm/releases/tag/v1.7.1" target="_blank" rel="noopener noreferrer">release ↗</a></td><td>2023-04-28</td><td><a href="https://github.com/Gilead-BioStats/r-qualification/blob/main/lib/gsm/qualification_v1_7_1.md" target="_blank" rel="noopener noreferrer">qualification ↗</a></td><td>2023-08-28</td></tr>
+    <tr><td>Gilead-BioStats</td><td class="repo">gsm.app</td><td>yes</td><td class="version">v2.5.3</td><td><a href="https://github.com/Gilead-BioStats/gsm.app/releases/tag/v2.5.3" target="_blank" rel="noopener noreferrer">release ↗</a></td><td>2025-08-20</td><td><a href="https://github.com/Gilead-BioStats/r-qualification/blob/main/lib/gsm.app/qualification_v2_5_3.md" target="_blank" rel="noopener noreferrer">qualification ↗</a></td><td>2025-08-22</td></tr>
+    <tr><td>Gilead-BioStats</td><td class="repo">gsm.app</td><td>yes</td><td class="version">v2.6.1</td><td><a href="https://github.com/Gilead-BioStats/gsm.app/releases/tag/v2.6.1" target="_blank" rel="noopener noreferrer">release ↗</a></td><td>2025-09-24</td><td><a href="https://github.com/Gilead-BioStats/r-qualification/blob/main/lib/gsm.app/qualification_v2_6_1.md" target="_blank" rel="noopener noreferrer">qualification ↗</a></td><td>2025-10-01</td></tr>
+    <tr><td>Gilead-BioStats</td><td class="repo">gsm.core</td><td>yes</td><td class="version">v1.0.0</td><td><a href="https://github.com/Gilead-BioStats/gsm.core/releases/tag/v1.0.0" target="_blank" rel="noopener noreferrer">release ↗</a></td><td>2025-03-14</td><td><a href="https://github.com/Gilead-BioStats/r-qualification/blob/main/lib/gsm.core/qualification_v1_0_0.md" target="_blank" rel="noopener noreferrer">qualification ↗</a></td><td>2025-04-21</td></tr>
+    <tr><td>Gilead-BioStats</td><td class="repo">gsm.core</td><td>yes</td><td class="version">v1.1.0</td><td><a href="https://github.com/Gilead-BioStats/gsm.core/releases/tag/v1.1.0" target="_blank" rel="noopener noreferrer">release ↗</a></td><td>2025-04-11</td><td><a href="https://github.com/Gilead-BioStats/r-qualification/blob/main/lib/gsm.core/qualification_v1_1_0.md" target="_blank" rel="noopener noreferrer">qualification ↗</a></td><td>2025-04-21</td></tr>
+    <tr><td>Gilead-BioStats</td><td class="repo">gsm.kri</td><td>yes</td><td class="version">v1.0.0</td><td><a href="https://github.com/Gilead-BioStats/gsm.kri/releases/tag/v1.0.0" target="_blank" rel="noopener noreferrer">release ↗</a></td><td>2025-03-14</td><td><a href="https://github.com/Gilead-BioStats/r-qualification/blob/main/lib/gsm.kri/qualification_v1_0_0.md" target="_blank" rel="noopener noreferrer">qualification ↗</a></td><td>2025-03-14</td></tr>
+    <tr><td>Gilead-BioStats</td><td class="repo">gsm.kri</td><td>yes</td><td class="version">v1.1.0</td><td><a href="https://github.com/Gilead-BioStats/gsm.kri/releases/tag/v1.1.0" target="_blank" rel="noopener noreferrer">release ↗</a></td><td>2025-04-14</td><td><a href="https://github.com/Gilead-BioStats/r-qualification/blob/main/lib/gsm.kri/qualification_v1_1_0.md" target="_blank" rel="noopener noreferrer">qualification ↗</a></td><td>2025-04-21</td></tr>
+    <tr><td>Gilead-BioStats</td><td class="repo">gsm.mapping</td><td>yes</td><td class="version">v1.0.0</td><td><a href="https://github.com/Gilead-BioStats/gsm.mapping/releases/tag/v1.0.0" target="_blank" rel="noopener noreferrer">release ↗</a></td><td>2025-03-14</td><td><a href="https://github.com/Gilead-BioStats/r-qualification/blob/main/lib/gsm.mapping/qualification_v1_0_0.md" target="_blank" rel="noopener noreferrer">qualification ↗</a></td><td>2025-03-14</td></tr>
+    <tr><td>Gilead-BioStats</td><td class="repo">gsm.mapping</td><td>yes</td><td class="version">v1.0.1</td><td><a href="https://github.com/Gilead-BioStats/gsm.mapping/releases/tag/v1.0.1" target="_blank" rel="noopener noreferrer">release ↗</a></td><td>2025-04-11</td><td><a href="https://github.com/Gilead-BioStats/r-qualification/blob/main/lib/gsm.mapping/qualification_v1_0_1.md" target="_blank" rel="noopener noreferrer">qualification ↗</a></td><td>2025-04-21</td></tr>
+    <tr><td>Gilead-BioStats</td><td class="repo">gsm.reporting</td><td>yes</td><td class="version">v1.0.0</td><td><a href="https://github.com/Gilead-BioStats/gsm.reporting/releases/tag/v1.0.0" target="_blank" rel="noopener noreferrer">release ↗</a></td><td>2025-03-14</td><td><a href="https://github.com/Gilead-BioStats/r-qualification/blob/main/lib/gsm.reporting/qualification_v1_0_0.md" target="_blank" rel="noopener noreferrer">qualification ↗</a></td><td>2025-03-14</td></tr>
+    <tr><td>Gilead-BioStats</td><td class="repo">gsm.reporting</td><td>yes</td><td class="version">v1.0.1</td><td><a href="https://github.com/Gilead-BioStats/gsm.reporting/releases/tag/v1.0.1" target="_blank" rel="noopener noreferrer">release ↗</a></td><td>2025-04-15</td><td><a href="https://github.com/Gilead-BioStats/r-qualification/blob/main/lib/gsm.reporting/qualification_v1_0_1.md" target="_blank" rel="noopener noreferrer">qualification ↗</a></td><td>2025-04-21</td></tr>
+  </tbody>
+</table>
+<div class="registry-caption">Sample rows from <code>qualified-releases.csv</code>: 76 qualified internal releases across 9 packages</div>
+```
+
+## Auto-qualification workflow
+
+```{=html}
+<svg class="autoq3" viewBox="70 0 820 520" role="img" aria-label="Auto-qualification workflow flowchart: GHA trigger, setup, load registry, check each package's latest release, then either skip or create branch, generate qualification doc, validate links, update registry, open PR, done. No human intervention.">
+  <defs>
+    <marker id="aq3-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#8dc1c5"/>
+    </marker>
+    <marker id="aq3-arrow-dim" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#7f8fa6"/>
+    </marker>
+  </defs>
+
+  <g class="fragment" data-fragment-index="0">
+    <rect x="130" y="8" width="600" height="46" rx="23" class="aq3-pill"/>
+    <text x="430" y="31" class="aq3-text aq3-on-pill">⏱ GHA Trigger: nightly / manual</text>
+  </g>
+
+  <g class="fragment" data-fragment-index="1">
+    <line x1="430" y1="56" x2="430" y2="70" class="aq3-line" marker-end="url(#aq3-arrow)"/>
+    <rect x="130" y="72" width="600" height="42" rx="12" class="aq3-card"/>
+    <text x="430" y="93" class="aq3-text">⚙️ Setup R environment &amp; install dependencies</text>
+    <circle cx="130" cy="93" r="15" class="aq3-badge"/>
+    <text x="130" y="93" class="aq3-badge-num">1</text>
+  </g>
+
+  <g class="fragment" data-fragment-index="2">
+    <line x1="430" y1="116" x2="430" y2="130" class="aq3-line" marker-end="url(#aq3-arrow)"/>
+    <rect x="130" y="132" width="600" height="42" rx="12" class="aq3-card"/>
+    <text x="430" y="153" class="aq3-text">📄 Load CSV registry &amp; discover internal packages</text>
+    <circle cx="130" cy="153" r="15" class="aq3-badge"/>
+    <text x="130" y="153" class="aq3-badge-num">2</text>
+  </g>
+
+  <g class="fragment" data-fragment-index="3">
+    <line x1="430" y1="176" x2="430" y2="190" class="aq3-line" marker-end="url(#aq3-arrow)"/>
+    <polygon points="138,192 722,192 750,218 722,244 138,244 110,218" class="aq3-hex"/>
+    <text x="430" y="218" class="aq3-text aq3-gold">🔍 For each package: check latest release</text>
+    <circle cx="110" cy="218" r="15" class="aq3-badge aq3-badge-gold"/>
+    <text x="110" y="218" class="aq3-badge-num aq3-gold">3</text>
+  </g>
+
+  <g class="fragment" data-fragment-index="4">
+    <path d="M 430 246 V 257 H 230 V 268" class="aq3-line-dim" marker-end="url(#aq3-arrow-dim)"/>
+    <path d="M 430 246 V 257 H 565 V 268" class="aq3-line" marker-end="url(#aq3-arrow)"/>
+    <rect x="90" y="270" width="280" height="36" rx="12" class="aq3-skip"/>
+    <text x="230" y="288" class="aq3-text aq3-small aq3-dim">already qualified or PR exists</text>
+    <rect x="400" y="270" width="330" height="36" rx="12" class="aq3-card aq3-happy"/>
+    <text x="565" y="288" class="aq3-text aq3-small">✨ new release found</text>
+  </g>
+
+  <g class="fragment" data-fragment-index="5">
+    <line x1="565" y1="308" x2="565" y2="320" class="aq3-line" marker-end="url(#aq3-arrow)"/>
+    <rect x="300" y="322" width="470" height="56" rx="12" class="aq3-card aq3-happy"/>
+    <text x="545" y="340" class="aq3-text aq3-small">🌿 Create branch · Generate qualification doc</text>
+    <text x="545" y="361" class="aq3-text aq3-small">Validate links · Update CSV registry</text>
+    <circle cx="300" cy="350" r="15" class="aq3-badge"/>
+    <text x="300" y="350" class="aq3-badge-num">4</text>
+  </g>
+
+  <g class="fragment" data-fragment-index="6">
+    <line x1="535" y1="380" x2="535" y2="392" class="aq3-line" marker-end="url(#aq3-arrow)"/>
+    <rect x="300" y="394" width="470" height="42" rx="12" class="aq3-card aq3-happy"/>
+    <text x="545" y="415" class="aq3-text aq3-small">🚀 Commit, push &amp; open PR · assign reviewer</text>
+    <circle cx="300" cy="415" r="15" class="aq3-badge"/>
+    <text x="300" y="415" class="aq3-badge-num">5</text>
+  </g>
+
+  <g class="fragment" data-fragment-index="7">
+    <line x1="535" y1="438" x2="535" y2="462" class="aq3-line" marker-end="url(#aq3-arrow)"/>
+    <line x1="230" y1="308" x2="230" y2="462" class="aq3-line-dim" marker-end="url(#aq3-arrow-dim)"/>
+    <rect x="130" y="464" width="600" height="46" rx="23" class="aq3-pill"/>
+    <text x="430" y="487" class="aq3-text aq3-on-pill">✅ Done</text>
+  </g>
+
+  <g class="fragment" data-fragment-index="8">
+    <path d="M 790 8 H 808 Q 816 8 816 16 V 502 Q 816 510 808 510 H 790" fill="none" stroke="#c5203f" stroke-width="3" stroke-linecap="round"/>
+    <g transform="translate(846 259) rotate(90)">
+      <rect x="-125" y="-16" width="250" height="32" rx="16" fill="#c5203f"/>
+      <text x="0" y="0" class="aq3-tag">NO HUMAN INTERVENTION</text>
+    </g>
+  </g>
+</svg>
+```
+
+## Automated qualification PR
+
+```{=html}
+<div style="text-align:center; margin-top: 0.55em;">
+  <a class="release-link" href="https://github.com/Gilead-BioStats/r-qualification/pull/92" target="_blank" rel="noopener noreferrer" aria-label="Open r-qualification pull request 92">
+    <img src="slide_images/auto-qualification-pr.png" alt="Automated qualification pull request screenshot" style="max-width: 100%; max-height: 520px;">
+  </a>
+</div>
+```
+
+## Qualification status udpate
+
+```{=html}
+<div style="text-align:center; margin-top: 0.55em;">
+  <a class="release-link" href="https://ideal-adventure-zwvvo9p.pages.github.io/" target="_blank" rel="noopener noreferrer" aria-label="Open GSM dashboard page">
+    <img src="slide_images/gsm-dashboard.png" alt="GSM dashboard screenshot" style="max-width: 100%; max-height: 520px;">
+  </a>
+</div>
+```
+
+## Packages are qualified continuously
+
+```{=html}
+<div class="cq-headline fragment" data-fragment-index="0">Qualification is a <span class="cq-gold">byproduct of development</span>, not a separate phase</div>
+<svg class="autoq3 cq-loop" viewBox="0 0 940 470" role="img" aria-label="Continuous qualification loop: tag tests to issues as you write them, reports flag untested issues and unlinked tests, qualification docs are filled automatically on release, repeated with every change.">
+  <defs>
+    <marker id="cq-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#8dc1c5"/>
+    </marker>
+  </defs>
+
+  <g class="fragment" data-fragment-index="1">
+    <rect x="310" y="10" width="320" height="96" rx="14" class="aq3-card aq3-happy"/>
+    <text x="478" y="44" class="aq3-text">🏷️ Tag tests to issues</text>
+    <text x="478" y="74" class="aq3-text">as you write them</text>
+    <circle cx="310" cy="58" r="16" class="aq3-badge"/>
+    <text x="310" y="58" class="aq3-badge-num">1</text>
+  </g>
+
+  <g class="fragment" data-fragment-index="2">
+    <path d="M 634 64 Q 760 80 760 316" class="aq3-line cq-arc" marker-end="url(#cq-arrow)"/>
+    <rect x="590" y="320" width="320" height="96" rx="14" class="aq3-card aq3-happy"/>
+    <text x="758" y="354" class="aq3-text">🔍 Reports flag untested</text>
+    <text x="758" y="384" class="aq3-text">issues &amp; unlinked tests</text>
+    <circle cx="590" cy="368" r="16" class="aq3-badge"/>
+    <text x="590" y="368" class="aq3-badge-num">2</text>
+  </g>
+
+  <g class="fragment" data-fragment-index="3">
+    <path d="M 586 400 Q 470 460 354 400" class="aq3-line cq-arc" marker-end="url(#cq-arrow)"/>
+    <rect x="30" y="320" width="320" height="96" rx="14" class="aq3-card aq3-happy"/>
+    <text x="198" y="354" class="aq3-text">📄 Qualification docs filled</text>
+    <text x="198" y="384" class="aq3-text">automatically on release</text>
+    <circle cx="30" cy="368" r="16" class="aq3-badge"/>
+    <text x="30" y="368" class="aq3-badge-num">3</text>
+  </g>
+
+  <g class="fragment" data-fragment-index="4">
+    <path d="M 180 316 Q 180 104 306 94" class="aq3-line cq-arc" marker-end="url(#cq-arrow)"/>
+    <circle cx="470" cy="245" r="86" class="cq-center"/>
+    <text x="470" y="226" class="cq-center-icon">♻️</text>
+    <text x="470" y="270" class="aq3-text aq3-gold">every change</text>
+  </g>
+</svg>
+```
