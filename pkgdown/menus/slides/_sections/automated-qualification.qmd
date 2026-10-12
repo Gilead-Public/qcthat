@@ -39,6 +39,16 @@
 - Link to the GitHub Actions run that generated it, so you can compare results
 :::
 
+# You can add `{qcthat}` to your package today
+
+## Setup takes minutes, not hours
+
+- `pak::pak("Gilead-Public/qcthat")`
+- `qcthat::use_qcthat()`
+- Tag your tests: `test_that("Thing works (#123)", ...)`
+- Experimental: `qcthat::Skill_TagTestsWithIssues()`
+  - Tell an agent "tag tests with issues"
+
 ## Registry
 
 ```{=html}

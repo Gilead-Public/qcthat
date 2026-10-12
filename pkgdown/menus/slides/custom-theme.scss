@@ -18,6 +18,20 @@ $code-block-border-color: #22395e !default;
 
 /*-- scss:rules --*/
 
+// Title slide: smaller title, authors stacked under it (right of the floated logo)
+#title-slide .title {
+  font-size: 1.9em;
+}
+#title-slide .quarto-title-authors {
+  flex-direction: column;
+  align-items: center;
+  gap: 0.15em;
+  margin-top: 0.6em;
+}
+#title-slide .quarto-title-author {
+  padding: 0;
+}
+
 .center {
   text-align: center !important;
 }
@@ -33,26 +47,10 @@ $code-block-border-color: #22395e !default;
   margin-top: -1.5em;
 }
 
-// Qualification title slide pills
-.qual-pills {
-  display: flex;
-  justify-content: center;
-  gap: 5rem;
-  margin-top: 1.2em;
-}
-.qual-pill {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.3em;
-}
-.qual-pill-icon {
-  font-size: 2.2em;
-}
-.qual-pill-label {
-  font-size: 0.75em;
-  font-weight: 600;
-  letter-spacing: 0.02em;
+// Qualification title slide cards (reuses the flowchart styles below)
+.autoq3.qual-grid {
+  height: 280px;
+  margin-top: 1em;
 }
 
 // Auto-qualification flowchart
@@ -211,6 +209,54 @@ $code-block-border-color: #22395e !default;
   font-weight: 800;
 }
 
+// Packages → reports → decisions flow
+.autoq3.pf-flow {
+  width: 120%;
+  height: 555px;
+  margin: 0.1em 0 0 -10%;
+}
+.autoq3 .pf-head {
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  fill: #8dc1c5;
+  text-anchor: middle;
+  dominant-baseline: central;
+}
+.autoq3 .pf-sub {
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 18px;
+  fill: #c9d3e0;
+  text-anchor: middle;
+  dominant-baseline: central;
+}
+.autoq3 .pf-hex-open {
+  fill: rgba(232, 196, 104, 0.1);
+  stroke: #e8c468;
+  stroke-width: 2.5;
+  stroke-linejoin: round;
+}
+.autoq3 .pf-hex-closed {
+  fill: rgba(141, 193, 197, 0.08);
+  stroke: rgba(141, 193, 197, 0.6);
+  stroke-width: 2.5;
+  stroke-linejoin: round;
+}
+.autoq3 .pf-hex-label {
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  fill: #e8c468;
+  text-anchor: middle;
+  dominant-baseline: central;
+}
+.autoq3 .pf-lock {
+  font-size: 22px;
+  text-anchor: middle;
+  dominant-baseline: central;
+}
+
 // "Drawbacks of the approach" vertical cards
 .autoq3 .db-icon {
   font-size: 58px;
@@ -231,6 +277,96 @@ $code-block-border-color: #22395e !default;
   fill: #c9d3e0;
   text-anchor: middle;
   dominant-baseline: central;
+}
+
+// Report screenshot with callouts + QR release card
+.reveal .report-hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.4em;
+  margin-top: 0.6em;
+}
+.reveal .report-shot {
+  position: relative;
+  width: 64%;
+  border: 1.5px solid rgba(141, 193, 197, 0.6);
+  border-radius: 14px;
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.04);
+  box-shadow: 0 0 22px rgba(141, 193, 197, 0.25);
+}
+.reveal .report-shot img {
+  display: block;
+  width: 100%;
+  max-width: none;
+  max-height: none;
+  margin: 0;
+  border-radius: 8px;
+}
+.reveal .report-callout {
+  position: absolute;
+  transform: translateY(-50%);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+  padding: 0.1em 0.6em 0.1em 0.15em;
+  border-radius: 999px;
+  background: #0b1d33;
+  border: 2px solid #e8c468;
+  color: #e8c468;
+  font-size: 0.42em;
+  font-weight: 700;
+  white-space: nowrap;
+  box-shadow: 0 0 10px rgba(232, 196, 104, 0.45);
+}
+.reveal .report-callout b {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 50%;
+  background: #e8c468;
+  color: #0b1d33;
+}
+.reveal .release-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25em;
+  padding: 0.6em 0.6em 0.5em;
+  border: 1.5px solid rgba(141, 193, 197, 0.5);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.05);
+  text-decoration: none;
+  transition: box-shadow 0.2s;
+}
+.reveal .release-card:hover,
+.reveal .release-card:focus {
+  box-shadow: 0 0 14px rgba(141, 193, 197, 0.6);
+}
+.reveal .release-card-qr {
+  display: block;
+  padding: 10px;
+  border-radius: 10px;
+  background: #8dc1c5;
+}
+.reveal .release-card-qr img {
+  display: block;
+  width: 170px;
+  margin: 0;
+  mix-blend-mode: multiply; // white QR background takes the teal card colour
+}
+.reveal .release-card-label {
+  font-size: 0.5em;
+  font-weight: 700;
+  color: #ffffff;
+}
+.reveal .release-card-url {
+  font-size: 0.4em;
+  color: #8dc1c5;
+  white-space: nowrap;
 }
 
 // Linked screenshot slides (Automated qualification PR, Qualification status update)

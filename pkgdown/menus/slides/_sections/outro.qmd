@@ -1,13 +1,3 @@
-# You can add `{qcthat}` to your package today
-
-## Setup takes minutes, not hours
-
-- `pak::pak("Gilead-Public/qcthat")`
-- `qcthat::use_qcthat()`
-- Tag your tests: `test_that("Thing works (#123)", ...)`
-- Experimental: `qcthat::Skill_TagTestsWithIssues()`
-  - Tell an agent "tag tests with issues"
-
 ## Contact us with questions and comments
 
 - `{qcthat}` package website: [gilead-public.github.io/qcthat](https://gilead-public.github.io/qcthat)
