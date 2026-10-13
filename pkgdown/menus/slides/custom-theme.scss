@@ -290,13 +290,19 @@ $code-block-border-color: #22395e !default;
 .reveal .report-shot {
   position: relative;
   width: 64%;
+}
+.reveal .report-shot,
+.reveal .shot-frame,
+.reveal .release-link {
   border: 1.5px solid rgba(141, 193, 197, 0.6);
   border-radius: 14px;
   padding: 8px;
   background: rgba(255, 255, 255, 0.04);
   box-shadow: 0 0 22px rgba(141, 193, 197, 0.25);
 }
-.reveal .report-shot img {
+.reveal .report-shot img,
+.reveal .shot-frame img,
+.reveal .release-link img {
   display: block;
   width: 100%;
   max-width: none;
@@ -336,9 +342,7 @@ $code-block-border-color: #22395e !default;
   align-items: center;
   gap: 0.25em;
   padding: 0.6em 0.6em 0.5em;
-  border: 1.5px solid rgba(141, 193, 197, 0.5);
   border-radius: 14px;
-  background: rgba(255, 255, 255, 0.05);
   text-decoration: none;
   transition: box-shadow 0.2s;
 }
@@ -372,23 +376,16 @@ $code-block-border-color: #22395e !default;
 // Linked screenshot slides (Automated qualification PR, Qualification status update)
 .release-link {
   display: inline-block;
-  border: 2px solid #3c587f;
-  border-radius: 10px;
-  transition: border-color 0.2s, border-width 0.2s, box-shadow 0.2s;
-  background-color: transparent;
+  transition: box-shadow 0.2s;
   outline: none;
 }
-.release-link:hover,
-.release-link:focus {
-  border-color: #3c587f !important;
-  border-width: 4px;
-  box-shadow: 0 0 0 4px rgba(60, 88, 127, 0.35);
-  background-color: transparent;
+.reveal .release-link:hover,
+.reveal .release-link:focus {
+  box-shadow: 0 0 30px rgba(141, 193, 197, 0.6);
   text-decoration: none !important;
 }
-.release-link img {
-  display: block;
-  border-radius: 7px;
+.reveal .release-link img {
+  width: auto;
 }
 
 // Registry table slide

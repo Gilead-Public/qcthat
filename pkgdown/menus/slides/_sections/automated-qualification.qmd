@@ -129,23 +129,23 @@
 
   <g class="fragment" data-fragment-index="5">
     <line x1="565" y1="308" x2="565" y2="320" class="aq3-line" marker-end="url(#aq3-arrow)"/>
-    <rect x="300" y="322" width="470" height="56" rx="12" class="aq3-card aq3-happy"/>
-    <text x="545" y="340" class="aq3-text aq3-small">🌿 Create branch · Generate qualification doc</text>
-    <text x="545" y="361" class="aq3-text aq3-small">Validate links · Update CSV registry</text>
-    <circle cx="300" cy="350" r="15" class="aq3-badge"/>
-    <text x="300" y="350" class="aq3-badge-num">4</text>
+    <rect x="270" y="322" width="460" height="56" rx="12" class="aq3-card aq3-happy"/>
+    <text x="500" y="340" class="aq3-text aq3-small">🌿 Create branch · Generate qualification doc</text>
+    <text x="500" y="361" class="aq3-text aq3-small">Validate links · Update CSV registry</text>
+    <circle cx="270" cy="350" r="15" class="aq3-badge"/>
+    <text x="270" y="350" class="aq3-badge-num">4</text>
   </g>
 
   <g class="fragment" data-fragment-index="6">
-    <line x1="535" y1="380" x2="535" y2="392" class="aq3-line" marker-end="url(#aq3-arrow)"/>
-    <rect x="300" y="394" width="470" height="42" rx="12" class="aq3-card aq3-happy"/>
-    <text x="545" y="415" class="aq3-text aq3-small">🚀 Commit, push &amp; open PR · assign reviewer</text>
-    <circle cx="300" cy="415" r="15" class="aq3-badge"/>
-    <text x="300" y="415" class="aq3-badge-num">5</text>
+    <line x1="500" y1="380" x2="500" y2="392" class="aq3-line" marker-end="url(#aq3-arrow)"/>
+    <rect x="270" y="394" width="460" height="42" rx="12" class="aq3-card aq3-happy"/>
+    <text x="500" y="415" class="aq3-text aq3-small">🚀 Commit, push &amp; open PR · assign reviewer</text>
+    <circle cx="270" cy="415" r="15" class="aq3-badge"/>
+    <text x="270" y="415" class="aq3-badge-num">5</text>
   </g>
 
   <g class="fragment" data-fragment-index="7">
-    <line x1="535" y1="438" x2="535" y2="462" class="aq3-line" marker-end="url(#aq3-arrow)"/>
+    <line x1="500" y1="438" x2="500" y2="462" class="aq3-line" marker-end="url(#aq3-arrow)"/>
     <line x1="230" y1="308" x2="230" y2="462" class="aq3-line-dim" marker-end="url(#aq3-arrow-dim)"/>
     <rect x="130" y="464" width="600" height="46" rx="23" class="aq3-pill"/>
     <text x="430" y="487" class="aq3-text aq3-on-pill">✅ Done</text>

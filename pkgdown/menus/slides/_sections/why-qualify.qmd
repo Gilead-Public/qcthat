@@ -22,7 +22,9 @@
 
 ::: {.column width="60%"}
 
+::: {.shot-frame}
 ![](slide_images/gh_qcthat.png){width=100%}
+:::
 
 :::
 
