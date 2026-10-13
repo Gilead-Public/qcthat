@@ -164,9 +164,9 @@
 ## Automated qualification PR
 
 ```{=html}
-<div style="text-align:center; margin-top: 0.55em;">
+<div style="text-align:center; margin-top: 0.2em;">
   <a class="release-link" href="https://github.com/Gilead-BioStats/r-qualification/pull/92" target="_blank" rel="noopener noreferrer" aria-label="Open r-qualification pull request 92">
-    <img src="slide_images/auto-qualification-pr.png" alt="Automated qualification pull request screenshot" style="max-width: 100%; max-height: 520px;">
+    <img src="slide_images/auto-qualification-pr.png" alt="Automated qualification pull request screenshot" style="max-width: 100%; max-height: 560px;">
   </a>
 </div>
 ```
@@ -174,9 +174,9 @@
 ## Qualification status udpate
 
 ```{=html}
-<div style="text-align:center; margin-top: 0.55em;">
+<div style="text-align:center; margin-top: 0.2em;">
   <a class="release-link" href="https://ideal-adventure-zwvvo9p.pages.github.io/" target="_blank" rel="noopener noreferrer" aria-label="Open GSM dashboard page">
-    <img src="slide_images/gsm-dashboard.png" alt="GSM dashboard screenshot" style="max-width: 100%; max-height: 520px;">
+    <img src="slide_images/gsm-dashboard.png" alt="GSM dashboard screenshot" style="max-width: 100%; max-height: 560px;">
   </a>
 </div>
 ```

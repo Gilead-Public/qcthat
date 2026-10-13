@@ -18,6 +18,15 @@ $code-block-border-color: #22395e !default;
 
 /*-- scss:rules --*/
 
+// Gradient progress bar; fixed background size keeps colours anchored as the bar grows
+.reveal .progress {
+  height: 4px;
+}
+.reveal .progress span {
+  background: linear-gradient(90deg, #4f8cff, #a35bff, #ff5fa2, #ffb35c);
+  background-size: 100vw 100%;
+}
+
 // Title slide: smaller title, authors stacked under it (right of the floated logo)
 #title-slide .title {
   font-size: 1.9em;
@@ -371,6 +380,45 @@ $code-block-border-color: #22395e !default;
   font-size: 0.4em;
   color: #8dc1c5;
   white-space: nowrap;
+}
+
+// Closing contact slide
+.reveal .contact-slide h2 {
+  font-size: 1.9em;
+  text-align: center;
+}
+.reveal .contact-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.2em;
+  margin-top: 2.4em;
+}
+.reveal .contact-logo {
+  width: 230px;
+  margin: 0;
+}
+.reveal .contact-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3em;
+  padding: 0.8em 1em 0.7em;
+  border: 1.5px solid rgba(141, 193, 197, 0.5);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.05);
+  text-decoration: none;
+  transition: box-shadow 0.2s;
+}
+.reveal .contact-card:hover,
+.reveal .contact-card:focus {
+  box-shadow: 0 0 14px rgba(141, 193, 197, 0.6);
+}
+.reveal .contact-card-title {
+  font-size: 0.6em;
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: 0.3em;
 }
 
 // Linked screenshot slides (Automated qualification PR, Qualification status update)
