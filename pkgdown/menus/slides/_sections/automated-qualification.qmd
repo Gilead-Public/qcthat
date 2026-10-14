@@ -39,9 +39,7 @@
 - Link to the GitHub Actions run that generated it, so you can compare results
 :::
 
-# You can add `{qcthat}` to your package today
-
-## Setup takes minutes, not hours
+## You can add `{qcthat}` to your package today
 
 - `pak::pak("Gilead-Public/qcthat")`
 - `qcthat::use_qcthat()`
