@@ -1,3 +1,11 @@
+##
+
+![](slide_images/buried-in-packages.svg){fig-align="center" height="600px" fig-alt="Cartoon of a person completely buried under paperwork and R package hex stickers, with only a hand and white flag sticking out"}
+
+##
+
+![](slide_images/breaking-free.svg){fig-align="center" height="600px" fig-alt="Cartoon of a person breaking free from a pile of paperwork and package hexes, holding up the qcthat hex and an AUTOMATION banner"}
+
 ## Thank you! Questions? {.contact-slide}
 
 ```{=html}

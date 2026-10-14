@@ -4,10 +4,6 @@
 <div class="report-hero">
   <div class="report-shot">
     <img src="slide_images/gh_report_pr_zoom.png" alt="qcthat issue test matrix posted on a pull request: one milestone, three issues, nine passing tests">
-    <span class="report-callout" style="left: 45%; top: 18.3%;"><b>1</b>Milestone</span>
-    <span class="report-callout" style="left: 66%; top: 44.4%;"><b>2</b>Issue</span>
-    <span class="report-callout" style="left: 63%; top: 51.2%;"><b>3</b>Linked tests</span>
-    <span class="report-callout" style="left: 40%; top: 93.8%;"><b>4</b>Summary</span>
   </div>
   <a class="release-card" href="https://github.com/Gilead-Public/qcthat/releases/latest" target="_blank" rel="noopener">
     <span class="release-card-qr"><img src="slide_images/qr_latest_release.png" alt="QR code linking to the latest qcthat release"></span>

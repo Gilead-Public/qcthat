@@ -28,3 +28,5 @@ format:
 {{< include _sections/automated-qualification.qmd >}}
 
 {{< include _sections/outro.qmd >}}
+
+{{< include _sections/bonus.qmd >}}
