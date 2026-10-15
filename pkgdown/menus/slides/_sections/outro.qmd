@@ -1,21 +1,29 @@
-# You can add `{qcthat}` to your package today
+##
 
-## Setup takes minutes, not hours
+![](slide_images/buried-in-packages.svg){fig-align="center" height="600px" fig-alt="Cartoon of a person completely buried under paperwork and R package hex stickers, with only a hand and white flag sticking out"}
 
-- `pak::pak("Gilead-Public/qcthat")`
-- `qcthat::use_qcthat()`
-- Tag your tests: `test_that("Thing works (#123)", ...)`
-- Experimental: `qcthat::Skill_TagTestsWithIssues()`
-  - Tell an agent "tag tests with issues"
+##
 
-## Packages are qualified continuously with every change
+![](slide_images/breaking-free.svg){fig-align="center" height="600px" fig-alt="Cartoon of a person breaking free from a pile of paperwork and package hexes, holding up the qcthat hex and an AUTOMATION banner"}
 
-- Qualification as a byproduct of development, not a separate phase
-- Developers tag tests to issues as they're written
-- Reports identify untested issues and unlinked tests
+## Thank you! Questions? {.contact-slide}
 
-## Contact us with questions and comments
+```{=html}
+<div class="contact-row">
+  <img class="contact-logo" src="slide_images/logo.png" alt="qcthat hex logo">
+  <a class="contact-card" href="https://gilead-public.github.io/qcthat" target="_blank" rel="noopener">
+    <span class="release-card-qr"><img src="slide_images/qr_website.png" alt="QR code linking to the qcthat package website"></span>
+    <span class="contact-card-title">🌐 Package website</span>
+    <span class="release-card-url">gilead-public.github.io/qcthat</span>
+  </a>
+  <a class="contact-card" href="https://github.com/Gilead-Public/qcthat" target="_blank" rel="noopener">
+    <span class="release-card-qr"><img src="slide_images/qr_github.png" alt="QR code linking to the qcthat GitHub repository"></span>
+    <span class="contact-card-title">💬 Issues &amp; discussion</span>
+    <span class="release-card-url">github.com/Gilead-Public/qcthat</span>
+  </a>
+</div>
+```
 
-- `{qcthat}` package website: [gilead-public.github.io/qcthat](https://gilead-public.github.io/qcthat)
-- Submit issues & discuss at [github.com/Gilead-Public/qcthat](https://github.com/Gilead-Public/qcthat)
+::: notes
 - Chat with us after the talk!
+:::

@@ -1,5 +1,3 @@
-# `{qcthat}` transforms qualification from a retrospective burden into a seamless byproduct of development
-
 ## Automated bots bring qualification reports directly to the Pull Request
 
 - GitHub Action comments on every PR with reports: 
@@ -38,3 +36,59 @@
 ::: notes
 - Link to the GitHub Actions run that generated it, so you can compare results
 :::
+
+## You can add `{qcthat}` to your package today
+
+- `pak::pak("Gilead-Public/qcthat")`
+- `qcthat::use_qcthat()`
+- Tag your tests: `test_that("Thing works (#123)", ...)`
+- Experimental: `qcthat::Skill_TagTestsWithIssues()`
+  - Tell an agent "tag tests with issues"
+
+# `{qcthat}` transforms qualification from a retrospective burden into a seamless byproduct of development
+
+## Packages are qualified continuously
+
+```{=html}
+<div class="cq-headline">Qualification is a <span class="cq-gold">byproduct of development</span>, not a separate phase</div>
+<svg class="autoq3 cq-loop" viewBox="0 0 940 470" role="img" aria-label="Continuous qualification loop: tag tests to issues as you write them, reports flag untested issues and unlinked tests, qualification docs are filled automatically on release, repeated with every change.">
+  <defs>
+    <marker id="cq-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#8dc1c5"/>
+    </marker>
+  </defs>
+
+  <g class="fragment" data-fragment-index="1">
+    <rect x="310" y="10" width="320" height="96" rx="14" class="aq3-card aq3-happy"/>
+    <text x="478" y="44" class="aq3-text">🏷️ Tag tests to issues</text>
+    <text x="478" y="74" class="aq3-text">as you write them</text>
+    <circle cx="310" cy="58" r="16" class="aq3-badge"/>
+    <text x="310" y="58" class="aq3-badge-num">1</text>
+  </g>
+
+  <g class="fragment" data-fragment-index="2">
+    <path d="M 634 64 Q 760 80 760 316" class="aq3-line cq-arc" marker-end="url(#cq-arrow)"/>
+    <rect x="590" y="320" width="320" height="96" rx="14" class="aq3-card aq3-happy"/>
+    <text x="758" y="354" class="aq3-text">🔍 Reports flag untested</text>
+    <text x="758" y="384" class="aq3-text">issues &amp; unlinked tests</text>
+    <circle cx="590" cy="368" r="16" class="aq3-badge"/>
+    <text x="590" y="368" class="aq3-badge-num">2</text>
+  </g>
+
+  <g class="fragment" data-fragment-index="3">
+    <path d="M 586 400 Q 470 460 354 400" class="aq3-line cq-arc" marker-end="url(#cq-arrow)"/>
+    <rect x="30" y="320" width="320" height="96" rx="14" class="aq3-card aq3-happy"/>
+    <text x="198" y="354" class="aq3-text">📄 Qualification docs filled</text>
+    <text x="198" y="384" class="aq3-text">automatically on release</text>
+    <circle cx="30" cy="368" r="16" class="aq3-badge"/>
+    <text x="30" y="368" class="aq3-badge-num">3</text>
+  </g>
+
+  <g class="fragment" data-fragment-index="4">
+    <path d="M 180 316 Q 180 104 306 94" class="aq3-line cq-arc" marker-end="url(#cq-arrow)"/>
+    <circle cx="470" cy="245" r="86" class="cq-center"/>
+    <text x="470" y="226" class="cq-center-icon">♻️</text>
+    <text x="470" y="270" class="aq3-text aq3-gold">every change</text>
+  </g>
+</svg>
+```

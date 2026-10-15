@@ -1,23 +1,90 @@
 ## `{qcthat}` generates qualification reports from your test suite
 
-:::: columns
-
-::: {.column width="60%"}
-
-![](slide_images/gh_report_pr_zoom.png){width=100%}
-
-:::
-
-::: {.column width="40%"}
-
-[![github.com/Gilead-Public/qcthat/releases/latest](slide_images/qr_latest_release.png){width=100%}](https://github.com/Gilead-Public/qcthat/releases/latest)
-
-:::
-
-::::
+```{=html}
+<div class="report-hero">
+  <div class="report-shot">
+    <img src="slide_images/gh_report_pr_zoom.png" alt="qcthat issue test matrix posted on a pull request: one milestone, three issues, nine passing tests">
+  </div>
+  <a class="release-card" href="https://github.com/Gilead-Public/qcthat/releases/latest" target="_blank" rel="noopener">
+    <span class="release-card-qr"><img src="slide_images/qr_latest_release.png" alt="QR code linking to the latest qcthat release"></span>
+    <span class="release-card-label">Latest release</span>
+    <span class="release-card-url">Gilead-Public/qcthat/releases</span>
+  </a>
+</div>
+```
 
 ::: notes
 - We'll talk a bit later about all the reports that are available, including Milestones and UAT which aren't shown in this screenshot.
 - The QR code takes you to the latest release. Scroll down to see its attached reports.
 - Note the triangle to expand/collapse the reports
+:::
+
+## Our R packages drive real decisions
+
+```{=html}
+<svg class="autoq3 pf-flow" viewBox="0 36 940 294" role="img" aria-label="Open- and closed-source R packages developed and maintained by Data Analytics produce reports, which trigger decisions and actions for Clinical Operations and other teams.">
+  <defs>
+    <marker id="pf-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#8dc1c5"/>
+    </marker>
+  </defs>
+
+  <text x="150" y="56" class="pf-head">R PACKAGES</text>
+
+  <text x="470" y="56" class="pf-head">REPORTS</text>
+
+  <text x="790" y="56" class="pf-head">DECISIONS &amp; ACTIONS</text>
+
+  <g transform="translate(110 140)">
+    <path d="M 0 -44 L 38 -22 L 38 22 L 0 44 L -38 22 L -38 -22 Z" class="pf-hex-open"/>
+    <text class="pf-hex-label" style="font-size: 12px;">gsm.mapping</text>
+  </g>
+  <g transform="translate(190 140)">
+    <path d="M 0 -44 L 38 -22 L 38 22 L 0 44 L -38 22 L -38 -22 Z" class="pf-hex-closed"/>
+    <text class="pf-lock">🔒</text>
+  </g>
+  <g transform="translate(70 210)">
+    <path d="M 0 -44 L 38 -22 L 38 22 L 0 44 L -38 22 L -38 -22 Z" class="pf-hex-closed"/>
+    <text class="pf-lock">🔒</text>
+  </g>
+  <g transform="translate(150 210)">
+    <path d="M 0 -44 L 38 -22 L 38 22 L 0 44 L -38 22 L -38 -22 Z" class="pf-hex-open"/>
+    <text class="pf-hex-label">gsm.core</text>
+  </g>
+  <g transform="translate(230 210)">
+    <path d="M 0 -44 L 38 -22 L 38 22 L 0 44 L -38 22 L -38 -22 Z" class="pf-hex-closed"/>
+    <text class="pf-lock">🔒</text>
+  </g>
+  <g transform="translate(110 280)">
+    <path d="M 0 -44 L 38 -22 L 38 22 L 0 44 L -38 22 L -38 -22 Z" class="pf-hex-closed"/>
+    <text class="pf-lock">🔒</text>
+  </g>
+  <g transform="translate(190 280)">
+    <path d="M 0 -44 L 38 -22 L 38 22 L 0 44 L -38 22 L -38 -22 Z" class="pf-hex-open"/>
+    <text class="pf-hex-label">gsm.kri</text>
+  </g>
+
+  <line x1="280" y1="210" x2="362" y2="210" class="aq3-line" marker-end="url(#pf-arrow)"/>
+
+  <rect x="371" y="116" width="150" height="130" rx="10" class="aq3-card"/>
+  <rect x="383" y="128" width="150" height="130" rx="10" class="aq3-card"/>
+  <rect x="395" y="140" width="150" height="130" rx="10" class="aq3-card aq3-happy"/>
+  <rect x="412" y="210" width="20" height="40" rx="3" fill="#8dc1c5"/>
+  <rect x="440" y="185" width="20" height="65" rx="3" fill="#8dc1c5"/>
+  <rect x="468" y="200" width="20" height="50" rx="3" fill="#e8c468"/>
+  <rect x="496" y="170" width="20" height="80" rx="3" fill="#c5203f"/>
+  <line x1="408" y1="252" x2="530" y2="252" stroke="#c9d3e0" stroke-width="2" stroke-linecap="round"/>
+
+  <line x1="556" y1="203" x2="644" y2="170" class="aq3-line" marker-end="url(#pf-arrow)"/>
+  <line x1="556" y1="217" x2="644" y2="250" class="aq3-line" marker-end="url(#pf-arrow)"/>
+
+  <rect x="650" y="140" width="280" height="56" rx="14" class="aq3-card aq3-happy"/>
+  <text x="790" y="168" class="aq3-text">🧭 Decisions</text>
+  <rect x="650" y="224" width="280" height="56" rx="14" class="aq3-card aq3-happy"/>
+  <text x="790" y="252" class="aq3-text">⚡ Actions</text>
+</svg>
+```
+
+::: notes
+Reports produced by these packages result into triggering decision and actions for the teams to address therefore some of these packages go through the formal qualification process.
 :::
