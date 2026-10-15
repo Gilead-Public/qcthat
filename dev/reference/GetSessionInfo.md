@@ -34,7 +34,7 @@ GetSessionInfo()
 #>  collate  C
 #>  ctype    C.UTF-8
 #>  tz       UTC
-#>  date     2026-10-06
+#>  date     2026-10-15
 #>  pandoc   3.8.3 @ /opt/hostedtoolcache/pandoc/3.8.3/x64/ (via rmarkdown)
 #>  quarto   1.10.19 @ /usr/local/bin/quarto
 #> 
@@ -60,7 +60,7 @@ GetSessionInfo()
 #>  covr          3.6.5   2025-11-09 [1] RSPM
 #>  crayon        1.5.3   2024-06-20 [1] RSPM
 #>  credentials   2.0.3   2025-09-12 [1] RSPM
-#>  curl          8.0.0   2026-08-25 [1] RSPM
+#>  curl          8.1.0   2026-10-14 [1] RSPM
 #>  datasets    * 4.6.1   2026-06-24 [3] local
 #>  desc          1.4.3   2023-12-10 [1] RSPM
 #>  diffobj       0.3.9   2026-09-11 [1] RSPM
@@ -75,7 +75,7 @@ GetSessionInfo()
 #>  foreign       0.8-91  2026-01-29 [3] CRAN (R 4.6.1)
 #>  fs            2.1.0   2026-04-18 [1] RSPM
 #>  generics      0.1.4   2025-05-09 [1] RSPM
-#>  gert          2.4.1   2026-08-19 [1] RSPM
+#>  gert          2.5.0   2026-10-14 [1] RSPM
 #>  gh            1.6.1   2026-07-20 [1] RSPM
 #>  git2r         0.36.2  2025-03-29 [1] RSPM
 #>  gitcreds      0.1.2   2022-09-08 [1] RSPM
@@ -116,14 +116,16 @@ GetSessionInfo()
 #>  pkgdown       2.2.1   2026-07-07 [1] RSPM
 #>  pkgload       1.5.3   2026-06-15 [1] RSPM
 #>  praise        1.0.0   2015-08-11 [1] RSPM
+#>  prettyunits   1.2.0   2023-09-24 [1] RSPM
 #>  processx      3.9.0   2026-04-22 [1] RSPM
 #>  ps            1.9.3   2026-04-20 [1] RSPM
 #>  purrr         1.2.2   2026-04-10 [1] RSPM
-#>  qcthat      * 1.1.3   2026-10-06 [1] local
+#>  qcthat      * 1.1.3   2026-10-15 [1] local
 #>  quarto        1.5.1   2025-09-04 [1] RSPM
 #>  R6            2.6.1   2025-02-15 [1] RSPM
 #>  ragg          1.5.2   2026-03-23 [1] RSPM
 #>  rappdirs      0.3.4   2026-01-17 [1] RSPM
+#>  rcmdcheck     1.4.0   2021-09-27 [1] any (@1.4.0)
 #>  Rcpp          1.1.2   2026-07-05 [1] RSPM
 #>  rex           1.2.2   2026-03-28 [1] RSPM
 #>  rlang         1.3.0   2026-07-05 [1] RSPM
@@ -162,6 +164,7 @@ GetSessionInfo()
 #>  withr         3.0.3   2026-06-19 [1] RSPM
 #>  xfun          0.61    2026-09-16 [1] RSPM
 #>  xml2          1.6.0   2026-06-22 [1] RSPM
+#>  xopen         1.0.1   2024-04-25 [1] RSPM
 #>  yaml          2.3.12  2025-12-10 [1] RSPM
 #>  zip           3.0.2   2026-08-04 [1] RSPM
 #> 
