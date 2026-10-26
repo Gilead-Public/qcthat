@@ -48,10 +48,19 @@ FetchUAIssue <- function(
       chrChecks = chrChecks,
       chrInstructions = chrInstructions
     )
-    if (!isTRUE(dfMatchingIssue$Body == strExpectedBody)) {
+    # Treat checked items as unchecked for comparison purposes.
+    chrBodies <- stringr::str_replace_all(
+      c(dfMatchingIssue$Body, strExpectedBody),
+      "(?m)^- \\[[xX]\\]",
+      "- [ ]"
+    )
+    if (!isTRUE(chrBodies[[1]] == chrBodies[[2]])) {
       dfMatchingIssue <- UpdateIssue(
         intIssue = dfMatchingIssue$Issue,
         strBody = strExpectedBody,
+        # Reopen so a changed body can't remain "accepted" before users review
+        # it.
+        strState = "open",
         strOwner = strOwner,
         strRepo = strRepo,
         strGHToken = strGHToken

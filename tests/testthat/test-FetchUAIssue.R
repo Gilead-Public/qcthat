@@ -197,6 +197,35 @@ test_that("FetchUAIssue updates the issue body when it does not match (#290)", {
   )
 })
 
+test_that("FetchUAIssue reopens a closed issue when updating its body (#290)", {
+  local_mocked_bindings(
+    FetchIssueUAChildren = function(...) {
+      data.frame(
+        Issue = 123L,
+        Title = TitleUAIssue("The thing renders", 12L),
+        State = "closed",
+        Body = "outdated body",
+        Url = "http://example.com/issue/123"
+      )
+    },
+    UpdateIssue = function(intIssue, strBody, strState = NULL, ...) {
+      data.frame(
+        Issue = intIssue,
+        Title = TitleUAIssue("The thing renders", 12L),
+        State = strState %||% "closed",
+        Body = strBody,
+        Url = "http://example.com/issue/123"
+      )
+    }
+  )
+  result <- FetchUAIssue(
+    strDescription = "The thing renders",
+    intIssue = 12L,
+    chrChecks = c("check1", "check2")
+  )
+  expect_identical(result$State, "open")
+})
+
 test_that("FetchUAIssue does not update body when it already matches (#290)", {
   local_mocked_bindings(
     FetchIssueUAChildren = function(...) {
@@ -217,6 +246,31 @@ test_that("FetchUAIssue does not update body when it already matches (#290)", {
       chrChecks = c("check1", "check2")
     )
   )
+})
+
+test_that("FetchUAIssue ignores checked items when comparing bodies (#290)", {
+  strCheckedBody <- BodyUAIssue(chrChecks = c("check1", "check2")) |>
+    stringr::str_replace("- \\[ \\] check1", "- [x] check1") |>
+    stringr::str_replace("- \\[ \\] check2", "- [X] check2")
+  local_mocked_bindings(
+    FetchIssueUAChildren = function(...) {
+      data.frame(
+        Issue = 123L,
+        Title = TitleUAIssue("The thing renders", 12L),
+        State = "closed",
+        Body = strCheckedBody,
+        Url = "http://example.com/issue/123"
+      )
+    },
+    UpdateIssue = function(...) stop("UpdateIssue should not be called")
+  )
+  result <- FetchUAIssue(
+    strDescription = "The thing renders",
+    intIssue = 12L,
+    chrChecks = c("check1", "check2")
+  )
+  expect_identical(result$Body, strCheckedBody)
+  expect_identical(result$State, "closed")
 })
 
 test_that("FetchUAIssue returns closed child if multiple children (#230, #290)", {
