@@ -103,10 +103,10 @@ internet connection, `ExpectUserAccepts()` performs the following steps:
       [`testthat::fail()`](https://testthat.r-lib.org/reference/fail.html)
       only when `lglReportFailure` is `TRUE` (controlled by the
       `qcthat_UAT` environment variable via
-      [`IsCheckingUAT()`](https://gilead-biostats.github.io/qcthat/reference/IsCheckingUAT.md)).
+      [`IsCheckingUAT()`](https://gilead-public.github.io/qcthat/reference/IsCheckingUAT.md)).
 
 5.  Logs the result for use in UAT reports (see
-    [`CommentUAT()`](https://gilead-biostats.github.io/qcthat/reference/CommentUAT.md)).
+    [`CommentUAT()`](https://gilead-public.github.io/qcthat/reference/CommentUAT.md)).
 
 When any guard condition is not met (on CRAN, not a git repo, or
 offline), the function silently returns `strDescription` without side
@@ -114,13 +114,13 @@ effects.
 
 ## See also
 
-- [`vignette("expect_user_accepts")`](https://gilead-biostats.github.io/qcthat/articles/expect_user_accepts.md)
+- [`vignette("expect_user_accepts")`](https://gilead-public.github.io/qcthat/articles/expect_user_accepts.md)
   for a full walk-through of the UAT system.
 
 Other UAT functions:
-[`CommentUAT()`](https://gilead-biostats.github.io/qcthat/reference/CommentUAT.md),
-[`IsCheckingUAT()`](https://gilead-biostats.github.io/qcthat/reference/IsCheckingUAT.md),
-[`TriggerUAT()`](https://gilead-biostats.github.io/qcthat/reference/TriggerUAT.md)
+[`CommentUAT()`](https://gilead-public.github.io/qcthat/reference/CommentUAT.md),
+[`IsCheckingUAT()`](https://gilead-public.github.io/qcthat/reference/IsCheckingUAT.md),
+[`TriggerUAT()`](https://gilead-public.github.io/qcthat/reference/TriggerUAT.md)
 
 ## Examples
 

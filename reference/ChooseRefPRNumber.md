@@ -13,7 +13,7 @@ ChooseRefPRNumber(dfPRs, strSourceRef = GetActiveBranch())
 - dfPRs:
 
   (`data.frame`) Data frame of pull requests as returned by
-  [`FetchRepoPRs()`](https://gilead-biostats.github.io/qcthat/reference/FetchRepoPRs.md).
+  [`FetchRepoPRs()`](https://gilead-public.github.io/qcthat/reference/FetchRepoPRs.md).
 
 - strSourceRef:
 

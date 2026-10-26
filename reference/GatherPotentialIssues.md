@@ -15,7 +15,7 @@ GatherPotentialIssues(dfTestPotentialIssuesLong)
   A
   [`tibble::tibble()`](https://tibble.tidyverse.org/reference/tibble.html)
   in long format with one row per test-issue pair, typically from
-  [`MapTestsToPotentialIssues()`](https://gilead-biostats.github.io/qcthat/reference/MapTestsToPotentialIssues.md).
+  [`MapTestsToPotentialIssues()`](https://gilead-public.github.io/qcthat/reference/MapTestsToPotentialIssues.md).
 
 ## Value
 

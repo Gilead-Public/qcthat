@@ -66,11 +66,11 @@ CommentUAT(
 ## Value
 
 Invisibly returns the result of
-[`CommentIssue()`](https://gilead-biostats.github.io/qcthat/reference/CommentIssue.md).
+[`CommentIssue()`](https://gilead-public.github.io/qcthat/reference/CommentIssue.md).
 
 ## See also
 
 Other UAT functions:
-[`ExpectUserAccepts()`](https://gilead-biostats.github.io/qcthat/reference/ExpectUserAccepts.md),
-[`IsCheckingUAT()`](https://gilead-biostats.github.io/qcthat/reference/IsCheckingUAT.md),
-[`TriggerUAT()`](https://gilead-biostats.github.io/qcthat/reference/TriggerUAT.md)
+[`ExpectUserAccepts()`](https://gilead-public.github.io/qcthat/reference/ExpectUserAccepts.md),
+[`IsCheckingUAT()`](https://gilead-public.github.io/qcthat/reference/IsCheckingUAT.md),
+[`TriggerUAT()`](https://gilead-public.github.io/qcthat/reference/TriggerUAT.md)

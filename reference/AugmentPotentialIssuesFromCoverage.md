@@ -21,7 +21,7 @@ AugmentPotentialIssuesFromCoverage(
   (`data.frame`) A
   [`tibble::tibble()`](https://tibble.tidyverse.org/reference/tibble.html)
   as returned by
-  [`GatherPotentialIssues()`](https://gilead-biostats.github.io/qcthat/reference/GatherPotentialIssues.md),
+  [`GatherPotentialIssues()`](https://gilead-public.github.io/qcthat/reference/GatherPotentialIssues.md),
   with columns `Test`, `File`, `LineStart`, `LineEnd`, `Issues`, and
   `PotentialIssues`.
 
@@ -30,15 +30,15 @@ AugmentPotentialIssuesFromCoverage(
   (`data.frame`) A
   [`tibble::tibble()`](https://tibble.tidyverse.org/reference/tibble.html)
   with the structure returned by
-  [`ExtractTestsFromFiles()`](https://gilead-biostats.github.io/qcthat/reference/ExtractTestsFromFiles.md).
+  [`ExtractTestsFromFiles()`](https://gilead-public.github.io/qcthat/reference/ExtractTestsFromFiles.md).
 
 - dfIssueCommitsLong:
 
   (`data.frame` or `NULL`) Pre-computed issue-commit mappings from
-  [`MapLongIssueCommits()`](https://gilead-biostats.github.io/qcthat/reference/MapLongIssueCommits.md).
+  [`MapLongIssueCommits()`](https://gilead-public.github.io/qcthat/reference/MapLongIssueCommits.md).
   If `NULL` (the default), fetched automatically from the GitHub API.
   Provide this when calling
-  [`MapTestFilesToPotentialIssues()`](https://gilead-biostats.github.io/qcthat/reference/MapTestFilesToPotentialIssues.md)
+  [`MapTestFilesToPotentialIssues()`](https://gilead-public.github.io/qcthat/reference/MapTestFilesToPotentialIssues.md)
   multiple times to avoid redundant API requests.
 
 - strTestDir:

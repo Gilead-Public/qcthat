@@ -24,7 +24,7 @@ FormatReportType(
 - fnReport:
 
   (`function`) The function that generates the report data, such as
-  [`QCPR()`](https://gilead-biostats.github.io/qcthat/reference/QCPR.md).
+  [`QCPR()`](https://gilead-public.github.io/qcthat/reference/QCPR.md).
 
 - strReportType:
 
@@ -58,9 +58,9 @@ FormatReportType(
 
   (`qcthat_IssueTestMatrix`) A `qcthat_IssueTestMatrix` object as
   returned by
-  [`AsIssueTestMatrix()`](https://gilead-biostats.github.io/qcthat/reference/AsIssueTestMatrix.md)
+  [`AsIssueTestMatrix()`](https://gilead-public.github.io/qcthat/reference/AsIssueTestMatrix.md)
   (often via
-  [`QCPackage()`](https://gilead-biostats.github.io/qcthat/reference/QCPackage.md)).
+  [`QCPackage()`](https://gilead-public.github.io/qcthat/reference/QCPackage.md)).
 
 - lOtherArgs:
 

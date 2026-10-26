@@ -22,15 +22,15 @@ MapTestsToPotentialIssues(
   A
   [`tibble::tibble()`](https://tibble.tidyverse.org/reference/tibble.html)
   with one row per test-commit pair, typically from
-  [`ExtractLongTestCommits()`](https://gilead-biostats.github.io/qcthat/reference/ExtractLongTestCommits.md).
+  [`ExtractLongTestCommits()`](https://gilead-public.github.io/qcthat/reference/ExtractLongTestCommits.md).
 
 - dfIssueCommitsLong:
 
   (`data.frame` or `NULL`) Pre-computed issue-commit mappings from
-  [`MapLongIssueCommits()`](https://gilead-biostats.github.io/qcthat/reference/MapLongIssueCommits.md).
+  [`MapLongIssueCommits()`](https://gilead-public.github.io/qcthat/reference/MapLongIssueCommits.md).
   If `NULL` (the default), fetched automatically from the GitHub API.
   Provide this when calling
-  [`MapTestFilesToPotentialIssues()`](https://gilead-biostats.github.io/qcthat/reference/MapTestFilesToPotentialIssues.md)
+  [`MapTestFilesToPotentialIssues()`](https://gilead-public.github.io/qcthat/reference/MapTestFilesToPotentialIssues.md)
   multiple times to avoid redundant API requests.
 
 - strPkgRoot:

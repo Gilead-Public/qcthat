@@ -21,7 +21,7 @@ MapIssueClosersToCommits(
   (`data.frame`) The
   [`tibble::tibble()`](https://tibble.tidyverse.org/reference/tibble.html)
   returned by
-  [`FetchRepoIssueClosers()`](https://gilead-biostats.github.io/qcthat/reference/FetchRepoIssueClosers.md).
+  [`FetchRepoIssueClosers()`](https://gilead-public.github.io/qcthat/reference/FetchRepoIssueClosers.md).
 
 - strPkgRoot:
 

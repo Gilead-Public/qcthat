@@ -27,7 +27,7 @@ MapTestFilesToPotentialIssues(
   (`data.frame`) A
   [`tibble::tibble()`](https://tibble.tidyverse.org/reference/tibble.html)
   with the structure returned by
-  [`ExtractTestsFromFiles()`](https://gilead-biostats.github.io/qcthat/reference/ExtractTestsFromFiles.md).
+  [`ExtractTestsFromFiles()`](https://gilead-public.github.io/qcthat/reference/ExtractTestsFromFiles.md).
 
 - strTestDir:
 
@@ -46,7 +46,7 @@ MapTestFilesToPotentialIssues(
 - dfIssueCommitsLong:
 
   (`data.frame` or `NULL`) Pre-computed issue-commit mappings from
-  [`MapLongIssueCommits()`](https://gilead-biostats.github.io/qcthat/reference/MapLongIssueCommits.md).
+  [`MapLongIssueCommits()`](https://gilead-public.github.io/qcthat/reference/MapLongIssueCommits.md).
   If `NULL` (the default), fetched automatically from the GitHub API.
   Provide this when calling `MapTestFilesToPotentialIssues()` multiple
   times to avoid redundant API requests.
