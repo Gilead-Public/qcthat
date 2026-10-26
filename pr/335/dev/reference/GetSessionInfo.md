@@ -34,7 +34,7 @@ GetSessionInfo()
 #>  collate  C
 #>  ctype    C.UTF-8
 #>  tz       UTC
-#>  date     2026-10-23
+#>  date     2026-10-26
 #>  pandoc   3.8.3 @ /opt/hostedtoolcache/pandoc/3.8.3/x64/ (via rmarkdown)
 #>  quarto   1.10.19 @ /usr/local/bin/quarto
 #> 
@@ -119,7 +119,7 @@ GetSessionInfo()
 #>  processx      3.9.0   2026-04-22 [1] RSPM
 #>  ps            1.9.3   2026-04-20 [1] RSPM
 #>  purrr         1.2.2   2026-04-10 [1] RSPM
-#>  qcthat      * 1.2.0   2026-10-23 [1] local
+#>  qcthat      * 1.2.0   2026-10-26 [1] local
 #>  quarto        1.5.1   2025-09-04 [1] RSPM
 #>  R6            2.6.1   2025-02-15 [1] RSPM
 #>  ragg          1.5.2   2026-03-23 [1] RSPM
