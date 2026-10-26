@@ -1,0 +1,110 @@
+# Qualification {.qual-title}
+
+```{=html}
+<svg class="autoq3 qual-grid" viewBox="0 0 940 260" role="img" aria-label="Qualification: assurance, documentation, traceability.">
+  <rect x="20" y="10" width="280" height="240" rx="16" class="aq3-card"/>
+  <text x="160" y="95" class="db-icon">🛡️</text>
+  <text x="160" y="185" class="db-title">Assurance</text>
+
+  <rect x="330" y="10" width="280" height="240" rx="16" class="aq3-card"/>
+  <text x="470" y="95" class="db-icon">📄</text>
+  <text x="470" y="185" class="db-title">Documentation</text>
+
+  <rect x="640" y="10" width="280" height="240" rx="16" class="aq3-card"/>
+  <text x="780" y="95" class="db-icon">🔗</text>
+  <text x="780" y="185" class="db-title">Traceability</text>
+</svg>
+```
+
+##
+
+![](slide_images/buried-in-paperwork.svg){fig-align="center" height="600px" fig-alt="Cartoon of a person buried under a pile of paperwork, waving a white flag"}
+
+## Why we had to change
+
+```{=html}
+<svg class="autoq3 why-grid" viewBox="0 0 940 400" role="img" aria-label="Why we had to change: qualification documents often created after development; development team manually maps specifications to functions and evidence; repeated for every new release.">
+  <g class="fragment" data-fragment-index="0">
+    <rect x="20" y="18" width="280" height="338" rx="16" class="aq3-card"/>
+    <circle cx="160" cy="18" r="17" class="aq3-badge"/>
+    <text x="160" y="18" class="aq3-badge-num">1</text>
+    <text x="160" y="100" class="db-icon">⏳</text>
+    <text x="160" y="178" class="db-title">Qualification</text>
+    <text x="160" y="212" class="db-title">documents</text>
+    <text x="160" y="272" class="db-sub">often created</text>
+    <text x="160" y="302" class="db-sub"><tspan font-style="italic">after</tspan> development</text>
+  </g>
+
+  <g class="fragment" data-fragment-index="1">
+    <rect x="330" y="18" width="280" height="338" rx="16" class="aq3-card"/>
+    <circle cx="470" cy="18" r="17" class="aq3-badge"/>
+    <text x="470" y="18" class="aq3-badge-num">2</text>
+    <text x="470" y="100" class="db-icon">🔗</text>
+    <text x="470" y="178" class="db-title">Development team</text>
+    <text x="470" y="212" class="db-title">manually maps</text>
+    <text x="470" y="272" class="db-sub">specifications to</text>
+    <text x="470" y="302" class="db-sub">functions and evidence</text>
+  </g>
+
+  <g class="fragment" data-fragment-index="2">
+    <rect x="640" y="18" width="280" height="338" rx="16" class="aq3-card"/>
+    <circle cx="780" cy="18" r="17" class="aq3-badge"/>
+    <text x="780" y="18" class="aq3-badge-num">3</text>
+    <text x="780" y="100" class="db-icon">🔁</text>
+    <text x="780" y="195" class="db-title">Repeated</text>
+    <text x="780" y="272" class="db-sub">for every</text>
+    <text x="780" y="302" class="db-sub">new release</text>
+  </g>
+</svg>
+```
+
+## Drawbacks of the approach
+
+```{=html}
+<svg class="autoq3 why-grid" viewBox="0 0 940 400" role="img" aria-label="Drawbacks of the approach: validation debt piles up, deferred work makes it unclear what was tested and why, manual docs drift out of sync with the code, teams skip updates to avoid re-qualification.">
+  <g class="fragment" data-fragment-index="0">
+    <rect x="20" y="10" width="440" height="130" rx="14" class="aq3-card"/>
+    <text x="70" y="75" class="why-icon">📈</text>
+    <text x="115" y="58" class="why-title">Validation debt piles up</text>
+    <text x="115" y="92" class="why-sub">delays releases &amp; increases risk</text>
+    <circle cx="20" cy="75" r="16" class="aq3-badge"/>
+    <text x="20" y="75" class="aq3-badge-num">1</text>
+  </g>
+
+  <g class="fragment" data-fragment-index="1">
+    <rect x="480" y="10" width="440" height="130" rx="14" class="aq3-card"/>
+    <text x="530" y="75" class="why-icon">🔍</text>
+    <text x="575" y="44" class="why-title">Deferred work</text>
+    <text x="575" y="78" class="why-sub">makes it hard to reconstruct</text>
+    <text x="575" y="106" class="why-sub"><tspan font-style="italic">what</tspan> was tested and <tspan font-style="italic">why</tspan></text>
+    <circle cx="480" cy="75" r="16" class="aq3-badge"/>
+    <text x="480" y="75" class="aq3-badge-num">2</text>
+  </g>
+
+  <g class="fragment" data-fragment-index="2">
+    <rect x="20" y="160" width="440" height="130" rx="14" class="aq3-card"/>
+    <text x="70" y="225" class="why-icon">🔀</text>
+    <text x="115" y="208" class="why-title">Manual docs drift</text>
+    <text x="115" y="242" class="why-sub">out of sync with the code</text>
+    <circle cx="20" cy="225" r="16" class="aq3-badge"/>
+    <text x="20" y="225" class="aq3-badge-num">3</text>
+  </g>
+
+  <g class="fragment" data-fragment-index="3">
+    <rect x="480" y="160" width="440" height="130" rx="14" class="aq3-card"/>
+    <text x="530" y="225" class="why-icon">🚫</text>
+    <text x="575" y="208" class="why-title">Teams skip updates</text>
+    <text x="575" y="242" class="why-sub">to avoid re-qualification</text>
+    <circle cx="480" cy="225" r="16" class="aq3-badge"/>
+    <text x="480" y="225" class="aq3-badge-num">4</text>
+  </g>
+</svg>
+```
+
+::: notes
+This shift was important for several reasons. First, accumulating "validation debt" can delay releases and increase risk, as teams are left with a large amount of qualification work at the end of the cycle. Second, when qualification is deferred, it becomes much harder to reconstruct what was tested, why it was tested, and what evidence supports the results. Finally, manually maintained qualification documents often drift out of sync with the code itself, creating additional maintenance challenges. In some cases, teams may even avoid adopting new releases or updates simply to avoid the burden of re-qualification. These challenges highlighted the need for a more automated, repeatable, and scalable approach, which ultimately drove our effort to redesign the entire qualification framework.
+:::
+
+##
+
+![](slide_images/buried-in-packages.svg){fig-align="center" height="600px" fig-alt="Cartoon of a person completely buried under paperwork and R package hex stickers, with only a hand and white flag sticking out"}

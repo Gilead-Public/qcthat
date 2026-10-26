@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 600" role="img" aria-labelledby="title">
+  <title id="title">Cartoon of a person buried under a pile of paperwork, waving a white flag</title>
+  <defs>
+    <g id="sheet">
+      <rect x="-45" y="-57" width="90" height="115" rx="3" fill="#ffffff" stroke="#9fb0c6" stroke-width="2"/>
+      <g stroke="#c9d3e0" stroke-width="3" stroke-linecap="round">
+        <line x1="-32" y1="-38" x2="30" y2="-38"/>
+        <line x1="-32" y1="-24" x2="22" y2="-24"/>
+        <line x1="-32" y1="-10" x2="32" y2="-10"/>
+        <line x1="-32" y1="4" x2="14" y2="4"/>
+        <line x1="-32" y1="18" x2="28" y2="18"/>
+        <line x1="-32" y1="32" x2="8" y2="32"/>
+      </g>
+    </g>
+  </defs>
+
+  <ellipse cx="400" cy="545" rx="270" ry="22" fill="#000000" opacity="0.25"/>
+
+  <!-- Flying sheets -->
+  <g opacity="0.9">
+    <use xlink:href="#sheet" transform="translate(190 170) rotate(-30) scale(0.6)"/>
+    <use xlink:href="#sheet" transform="translate(680 190) rotate(25) scale(0.55)"/>
+    <use xlink:href="#sheet" transform="translate(130 300) rotate(15) scale(0.5)"/>
+  </g>
+  <g stroke="#8dc1c5" stroke-width="4" stroke-linecap="round" opacity="0.7">
+    <line x1="235" y1="205" x2="265" y2="225"/>
+    <line x1="225" y1="220" x2="250" y2="238"/>
+    <line x1="640" y1="215" x2="615" y2="235"/>
+    <line x1="650" y1="230" x2="627" y2="248"/>
+  </g>
+
+  <!-- Back of the pile -->
+  <use xlink:href="#sheet" transform="translate(340 300) rotate(-20)"/>
+  <use xlink:href="#sheet" transform="translate(460 295) rotate(18)"/>
+  <use xlink:href="#sheet" transform="translate(300 360) rotate(-35)"/>
+  <use xlink:href="#sheet" transform="translate(500 355) rotate(30)"/>
+
+  <!-- Shoulders -->
+  <ellipse cx="400" cy="268" rx="64" ry="32" fill="#3c587f" stroke="#22395e" stroke-width="3"/>
+
+  <!-- Head -->
+  <g transform="translate(400 200)">
+    <circle r="48" fill="#f6c89f" stroke="#3a2a1f" stroke-width="3"/>
+    <path d="M -48 -6 C -50 -50 -10 -62 14 -56 C 40 -50 54 -30 48 -8 C 36 -26 20 -30 4 -26 C -14 -40 -34 -26 -48 -6 Z" fill="#4a3426" stroke="#3a2a1f" stroke-width="3"/>
+    <g fill="none" stroke="#3a2a1f" stroke-width="3" stroke-linecap="round">
+      <path d="M -26 2 q 9 7 18 0"/>
+      <path d="M 8 2 q 9 7 18 0"/>
+      <path d="M -24 12 q 7 4 14 0" stroke-width="2" opacity="0.5"/>
+      <path d="M 10 12 q 7 4 14 0" stroke-width="2" opacity="0.5"/>
+      <path d="M -14 28 q 7 -6 14 0 q 7 6 14 0"/>
+    </g>
+    <path d="M 50 -26 q 9 13 0 20 q -9 -7 0 -20 z" fill="#8dc1c5" stroke="#3a2a1f" stroke-width="2"/>
+  </g>
+
+  <!-- Front of the pile -->
+  <use xlink:href="#sheet" transform="translate(350 318) rotate(-12)"/>
+  <use xlink:href="#sheet" transform="translate(398 324) rotate(8)"/>
+  <use xlink:href="#sheet" transform="translate(448 314) rotate(-6)"/>
+
+  <use xlink:href="#sheet" transform="translate(280 390) rotate(-25)"/>
+  <use xlink:href="#sheet" transform="translate(335 377) rotate(10)"/>
+  <use xlink:href="#sheet" transform="translate(390 386) rotate(-4)"/>
+  <use xlink:href="#sheet" transform="translate(450 379) rotate(14)"/>
+  <use xlink:href="#sheet" transform="translate(515 392) rotate(-18)"/>
+
+  <use xlink:href="#sheet" transform="translate(220 460) rotate(20)"/>
+  <use xlink:href="#sheet" transform="translate(280 450) rotate(-8)"/>
+  <use xlink:href="#sheet" transform="translate(340 456) rotate(12)"/>
+  <use xlink:href="#sheet" transform="translate(400 448) rotate(-15)"/>
+  <use xlink:href="#sheet" transform="translate(460 455) rotate(6)"/>
+  <use xlink:href="#sheet" transform="translate(525 452) rotate(-10)"/>
+  <use xlink:href="#sheet" transform="translate(585 465) rotate(25)"/>
+
+  <use xlink:href="#sheet" transform="translate(190 505) rotate(-5)"/>
+  <use xlink:href="#sheet" transform="translate(260 500) rotate(15)"/>
+  <use xlink:href="#sheet" transform="translate(330 505) rotate(-12)"/>
+  <use xlink:href="#sheet" transform="translate(400 500) rotate(4)"/>
+  <use xlink:href="#sheet" transform="translate(470 505) rotate(-20)"/>
+  <use xlink:href="#sheet" transform="translate(540 500) rotate(10)"/>
+  <use xlink:href="#sheet" transform="translate(610 505) rotate(-8)"/>
+
+  <!-- Arm waving a white flag -->
+  <line x1="455" y1="285" x2="528" y2="216" stroke="#3c587f" stroke-width="24" stroke-linecap="round"/>
+  <line x1="530" y1="240" x2="546" y2="100" stroke="#6b4f3a" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 545 104 q 30 -12 58 4 q -6 22 4 40 q -30 -13 -60 0 z" fill="#ffffff" stroke="#9fb0c6" stroke-width="2"/>
+  <circle cx="532" cy="208" r="14" fill="#f6c89f" stroke="#3a2a1f" stroke-width="3"/>
+
+  <!-- Coffee mug -->
+  <g transform="translate(672 478)">
+    <rect x="-24" y="-30" width="48" height="58" rx="6" fill="#c5203f" stroke="#3a2a1f" stroke-width="3"/>
+    <path d="M 24 -18 q 22 0 22 18 q 0 18 -22 18" fill="none" stroke="#3a2a1f" stroke-width="5"/>
+    <g fill="none" stroke="#eef2f7" stroke-width="3" stroke-linecap="round" opacity="0.7">
+      <path d="M -8 -40 q -8 -10 0 -20 q 8 -10 0 -20"/>
+      <path d="M 8 -40 q -8 -10 0 -20 q 8 -10 0 -20"/>
+    </g>
+  </g>
+</svg>

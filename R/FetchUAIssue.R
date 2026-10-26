@@ -43,6 +43,29 @@ FetchUAIssue <- function(
       strRepo = strRepo,
       strGHToken = strGHToken
     )
+  } else {
+    strExpectedBody <- BodyUAIssue(
+      chrChecks = chrChecks,
+      chrInstructions = chrInstructions
+    )
+    # Treat checked items as unchecked for comparison purposes.
+    chrBodies <- stringr::str_replace_all(
+      c(dfMatchingIssue$Body, strExpectedBody),
+      "(?m)^- \\[[xX]\\]",
+      "- [ ]"
+    )
+    if (!isTRUE(chrBodies[[1]] == chrBodies[[2]])) {
+      dfMatchingIssue <- UpdateIssue(
+        intIssue = dfMatchingIssue$Issue,
+        strBody = strExpectedBody,
+        # Reopen so a changed body can't remain "accepted" before users review
+        # it.
+        strState = "open",
+        strOwner = strOwner,
+        strRepo = strRepo,
+        strGHToken = strGHToken
+      )
+    }
   }
   return(as.list(dfMatchingIssue))
 }
@@ -97,4 +120,23 @@ FetchIssueChildren <- function(
 #' @keywords internal
 TitleUAIssue <- function(strDescription, intIssue) {
   glue::glue("qcthat Acceptance for #{intIssue}: {strDescription}")
+}
+
+#' Generate a body for a UAT issue
+#'
+#' @inheritParams shared-params
+#' @returns A string body for the UAT issue.
+#' @keywords internal
+BodyUAIssue <- function(
+  chrChecks = character(),
+  chrInstructions = character()
+) {
+  stringr::str_flatten(
+    c(
+      "Close this issue to indicate your acceptance.",
+      chrInstructions,
+      glue::glue("- [ ] {chrChecks}", sep = "\n")
+    ),
+    collapse = "\n\n"
+  )
 }

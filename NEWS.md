@@ -1,3 +1,16 @@
+# qcthat 1.2.0
+
+This minor release focuses primarily on GitHub Actions, with one new feature and completion of a previous feature.
+
+## New features
+
+* During UAT, `ExpectUserAccepts()` now updates its associated UAT issue if the text in the call changes (#290).
+
+## Bug fixes
+
+* `dfITM.json` (which can be read using `ReadJSONAsIssueTestMatrix()`) is now attached to releases by the associated GitHub Action (#298).
+* The release workflow should no longer fail to find milestones associated with releases (#316). 
+
 # qcthat 1.1.3
 
 This patch release streamlines and hones the GitHub Action installed via `Action_qcthat()`.
@@ -16,6 +29,8 @@ This patch release streamlines and hones the GitHub Action installed via `Action
 * `ExpectUserAccepts()` now automatically assigns UAT issues to GitHub usernames passed as `chrAssignees`, defaulting to the value of a `qcthat_UAT_ASSIGNEES` environment variable. This variable can be set in the GitHub action via the `uat-assignees` input, automatically triggering different UAT reviewers at different stages of development (#193).
 * `vignette("expect_user_accepts")` added to describe the "User acceptance testing with ExpectUserAccepts" process (#293).
 * qcthat installs the dev version of gh to avoid issues with GitHub PATs caused by recent changes to the GitHub API.
+
+* `ExpectUserAccepts()` now updates the body of existing `qcthat-uat` issues when `chrChecks` or `chrInstructions` change (#290).
 
 # qcthat 1.1.2
 

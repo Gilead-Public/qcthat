@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 600" role="img" aria-labelledby="title">
+  <title id="title">Cartoon of a person breaking free from a pile of paperwork and package hexes, scattering them aside, holding up the qcthat hex and an AUTOMATION banner</title>
+  <defs>
+    <g id="sheet">
+      <rect x="-45" y="-57" width="90" height="115" rx="3" fill="#ffffff" stroke="#9fb0c6" stroke-width="2"/>
+      <g stroke="#c9d3e0" stroke-width="3" stroke-linecap="round">
+        <line x1="-32" y1="-38" x2="30" y2="-38"/>
+        <line x1="-32" y1="-24" x2="22" y2="-24"/>
+        <line x1="-32" y1="-10" x2="32" y2="-10"/>
+        <line x1="-32" y1="4" x2="14" y2="4"/>
+        <line x1="-32" y1="18" x2="28" y2="18"/>
+        <line x1="-32" y1="32" x2="8" y2="32"/>
+      </g>
+    </g>
+    <path id="hex" d="M 0 -42 L 36.4 -21 L 36.4 21 L 0 42 L -36.4 21 L -36.4 -21 Z" stroke="#1b2b40" stroke-width="5" stroke-linejoin="round"/>
+    <path id="spark" d="M 0 -12 L 3 -3 L 12 0 L 3 3 L 0 12 L -3 3 L -12 0 L -3 -3 Z" fill="#e8c468"/>
+  </defs>
+
+  <style>
+    .hex-label { font-family: "Source Sans Pro", Helvetica, Arial, sans-serif; font-weight: 700; font-size: 15px; text-anchor: middle; dominant-baseline: central; }
+    .light { fill: #ffffff; }
+    .dark { fill: #1b2b40; }
+    .banner-text { font-family: "Source Sans Pro", Helvetica, Arial, sans-serif; font-weight: 800; font-size: 26px; letter-spacing: 2px; fill: #ffffff; text-anchor: middle; dominant-baseline: central; }
+    .logo-text { font-family: Helvetica, Arial, sans-serif; font-weight: 900; font-size: 27px; fill: #1f1f1f; dominant-baseline: central; }
+  </style>
+
+  <ellipse cx="400" cy="552" rx="300" ry="22" fill="#000000" opacity="0.25"/>
+
+  <!-- Motion lines: everything flies outward -->
+  <g stroke="#8dc1c5" stroke-width="4" stroke-linecap="round" opacity="0.7">
+    <line x1="245" y1="250" x2="210" y2="240"/>
+    <line x1="240" y1="268" x2="205" y2="262"/>
+    <line x1="245" y1="370" x2="215" y2="378"/>
+    <line x1="250" y1="440" x2="220" y2="452"/>
+    <line x1="555" y1="250" x2="590" y2="240"/>
+    <line x1="560" y1="268" x2="595" y2="262"/>
+    <line x1="555" y1="370" x2="585" y2="378"/>
+    <line x1="550" y1="440" x2="580" y2="452"/>
+  </g>
+
+  <!-- Scattered to the left -->
+  <use xlink:href="#sheet" transform="translate(120 225) rotate(-35) scale(0.8)"/>
+  <use xlink:href="#sheet" transform="translate(165 340) rotate(-15) scale(0.75)"/>
+  <use xlink:href="#sheet" transform="translate(70 395) rotate(22) scale(0.7)"/>
+  <g transform="translate(60 285) rotate(-20) scale(0.85)">
+    <use xlink:href="#hex" fill="#f4a261"/>
+    <text class="hex-label dark">v1.0.0</text>
+  </g>
+  <g transform="translate(150 455) rotate(15) scale(0.85)">
+    <use xlink:href="#hex" fill="#9b8dc5"/>
+    <text class="hex-label light">v2.4.1</text>
+  </g>
+
+  <!-- Scattered to the right -->
+  <use xlink:href="#sheet" transform="translate(690 290) rotate(30) scale(0.8)"/>
+  <use xlink:href="#sheet" transform="translate(640 380) rotate(15) scale(0.75)"/>
+  <use xlink:href="#sheet" transform="translate(745 420) rotate(-20) scale(0.7)"/>
+  <g transform="translate(745 255) rotate(18) scale(0.85)">
+    <use xlink:href="#hex" fill="#e8c468"/>
+    <text class="hex-label dark">v3.0.2</text>
+  </g>
+  <g transform="translate(665 470) rotate(-12) scale(0.85)">
+    <use xlink:href="#hex" fill="#c5203f"/>
+    <text class="hex-label light">v0.9.2</text>
+  </g>
+
+  <!-- Burst lines around the person -->
+  <g stroke="#e8c468" stroke-width="4" stroke-linecap="round">
+    <line x1="318" y1="320" x2="292" y2="312"/>
+    <line x1="482" y1="320" x2="508" y2="312"/>
+    <line x1="322" y1="395" x2="294" y2="405"/>
+    <line x1="478" y1="395" x2="506" y2="405"/>
+  </g>
+
+  <!-- Legs -->
+  <g stroke="#22395e" stroke-width="24" stroke-linecap="round">
+    <line x1="386" y1="415" x2="368" y2="508"/>
+    <line x1="414" y1="415" x2="432" y2="508"/>
+  </g>
+  <ellipse cx="360" cy="516" rx="22" ry="11" fill="#1b2b40"/>
+  <ellipse cx="440" cy="516" rx="22" ry="11" fill="#1b2b40"/>
+
+  <!-- Torso -->
+  <rect x="352" y="252" width="96" height="175" rx="34" fill="#3c587f" stroke="#22395e" stroke-width="3"/>
+
+  <!-- Banner pole and AUTOMATION banner (left hand) -->
+  <line x1="282" y1="255" x2="268" y2="28" stroke="#6b4f3a" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 268 34 C 200 18 130 50 52 32 L 70 66 L 52 100 C 130 118 200 86 268 100 Z" fill="#c5203f" stroke="#8e1530" stroke-width="3" stroke-linejoin="round"/>
+  <text class="banner-text" x="163" y="66" transform="rotate(-2 163 66)">AUTOMATION</text>
+
+  <!-- Arms raised -->
+  <g stroke="#3c587f" stroke-width="24" stroke-linecap="round">
+    <line x1="368" y1="278" x2="292" y2="180"/>
+    <line x1="432" y1="278" x2="512" y2="182"/>
+  </g>
+
+  <!-- qcthat hex (right hand) -->
+  <g transform="translate(568 108)">
+    <path d="M 0 -74 L 64 -37 L 64 37 L 0 74 L -64 37 L -64 -37 Z" fill="#a093d6" stroke="#57478f" stroke-width="9" stroke-linejoin="round"/>
+    <g stroke="#8a7cc4" stroke-width="3" stroke-linecap="round" opacity="0.8">
+      <line x1="-30" y1="-44" x2="34" y2="-44"/>
+      <line x1="-46" y1="-32" x2="40" y2="-32"/>
+      <line x1="-50" y1="-20" x2="22" y2="-20"/>
+      <line x1="-40" y1="34" x2="44" y2="34"/>
+      <line x1="-30" y1="46" x2="26" y2="46"/>
+    </g>
+    <rect x="-54" y="-14" width="32" height="26" rx="5" fill="#ffffff" stroke="#1f1f1f" stroke-width="5"/>
+    <rect x="-49" y="-8" width="6" height="6" rx="1" fill="#3cc47c"/>
+    <rect x="-49" y="2" width="6" height="6" rx="1" fill="#3cc47c"/>
+    <line x1="-40" y1="-5" x2="-28" y2="-5" stroke="#1f1f1f" stroke-width="2"/>
+    <line x1="-40" y1="5" x2="-30" y2="5" stroke="#1f1f1f" stroke-width="2"/>
+    <rect x="-29" y="8" width="8" height="34" rx="3" fill="#1f1f1f"/>
+    <text class="logo-text" x="-17" y="0">cthat</text>
+  </g>
+  <use xlink:href="#spark" transform="translate(480 40)"/>
+  <use xlink:href="#spark" transform="translate(660 30) scale(0.8)"/>
+  <use xlink:href="#spark" transform="translate(665 200) scale(0.7)"/>
+
+  <!-- Hands -->
+  <circle cx="285" cy="172" r="15" fill="#f6c89f" stroke="#3a2a1f" stroke-width="3"/>
+  <circle cx="518" cy="172" r="15" fill="#f6c89f" stroke="#3a2a1f" stroke-width="3"/>
+
+  <!-- Happy head -->
+  <g transform="translate(400 204)">
+    <circle r="48" fill="#f6c89f" stroke="#3a2a1f" stroke-width="3"/>
+    <path d="M -48 -6 C -50 -50 -10 -62 14 -56 C 40 -50 54 -30 48 -8 C 36 -26 20 -30 4 -26 C -14 -40 -34 -26 -48 -6 Z" fill="#4a3426" stroke="#3a2a1f" stroke-width="3"/>
+    <g fill="none" stroke="#3a2a1f" stroke-width="3" stroke-linecap="round">
+      <path d="M -26 4 q 9 -9 18 0"/>
+      <path d="M 8 4 q 9 -9 18 0"/>
+    </g>
+    <path d="M -20 16 q 20 26 40 0 z" fill="#3a2a1f" stroke="#3a2a1f" stroke-width="3" stroke-linejoin="round"/>
+    <circle cx="-30" cy="16" r="6" fill="#f08a8a" opacity="0.6"/>
+    <circle cx="30" cy="16" r="6" fill="#f08a8a" opacity="0.6"/>
+  </g>
+
+  <!-- Leftover sheets and hexes on the floor -->
+  <use xlink:href="#sheet" transform="translate(250 528) rotate(84) scale(0.8)"/>
+  <use xlink:href="#sheet" transform="translate(320 540) rotate(-80) scale(0.75)"/>
+  <use xlink:href="#sheet" transform="translate(480 540) rotate(95) scale(0.75)"/>
+  <use xlink:href="#sheet" transform="translate(550 528) rotate(-86) scale(0.8)"/>
+  <g transform="translate(195 538) rotate(10) scale(0.75)">
+    <use xlink:href="#hex" fill="#5fd4b5"/>
+    <text class="hex-label dark">v1.7.4</text>
+  </g>
+  <g transform="translate(605 540) rotate(-8) scale(0.75)">
+    <use xlink:href="#hex" fill="#3c587f"/>
+    <text class="hex-label light">v5.1.2</text>
+  </g>
+</svg>
