@@ -1,6 +1,26 @@
 # Changelog
 
-## qcthat (development version)
+## qcthat 1.2.0
+
+This minor release focuses primarily on GitHub Actions, with one new
+feature and completion of a previous feature.
+
+### New features
+
+- During UAT,
+  [`ExpectUserAccepts()`](https://gilead-public.github.io/qcthat/dev/reference/ExpectUserAccepts.md)
+  now updates its associated UAT issue if the text in the call changes
+  ([\#290](https://github.com/Gilead-Public/qcthat/issues/290)).
+
+### Bug fixes
+
+- `dfITM.json` (which can be read using
+  [`ReadJSONAsIssueTestMatrix()`](https://gilead-public.github.io/qcthat/dev/reference/ReadJSONAsIssueTestMatrix.md))
+  is now attached to releases by the associated GitHub Action
+  ([\#298](https://github.com/Gilead-Public/qcthat/issues/298)).
+- The release workflow should no longer fail to find milestones
+  associated with releases
+  ([\#316](https://github.com/Gilead-Public/qcthat/issues/316)).
 
 ## qcthat 1.1.3
 
