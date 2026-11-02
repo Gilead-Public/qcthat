@@ -66,6 +66,8 @@ export(TriggerUAT)
 export(UpdateIssue)
 export(use_qcthat)
 importFrom(cli,qty)
-importFrom(rlang,"%||%")
-importFrom(rlang,":=")
-importFrom(rlang,.data)
+importFrom(rlang,
+  "%||%",
+  ":=",
+  .data
+)
